@@ -1,0 +1,40 @@
+<extend name="Common:edit"/>
+<block name="form">
+    <form method="post" action="{:U()}" >
+        <table cellspacing="1" cellpadding="3" width="100%">
+            <tr>
+                <td class="label">供货商名称</td>
+                <td>
+                    <input type="text" name="name" maxlength="60" value="{$name}" />
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">供货商介绍</td>
+                <td>
+                    <input type="text" name="intro" maxlength="60" size="40" value="{$intro}" />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">排序</td>
+                <td>
+                    <input type="text" name="sort" maxlength="40" size="15" value="{$sort|default=20}" />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">是否显示</td>
+                <td>
+                    <input type="radio" name="status" value="1" class="status" /> 是
+                    <input type="radio" name="status" value="0"  class="status"/> 否
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><br />
+                    <input type="hidden" name="id" value="{$id}" />
+                    <input type="submit" class="button ajax-post" value=" 确定 " />
+                    <input type="reset" class="button" value=" 重置 " />
+                </td>
+            </tr>
+        </table>
+    </form>
+</block>

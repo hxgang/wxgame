@@ -1,0 +1,53 @@
+<div class="tpl-portlet-components">
+    <div class="portlet-title">
+        <div class="caption font-green bold">
+            <span class="am-icon-code"></span> 编辑支付方式
+        </div>
+    </div>
+    <div class="tpl-block" style="font-size:12px;">
+        <div class="am-g tpl-amazeui-form">
+            <div class="am-u-sm-12 am-u-md-9">
+                <form class="am-form am-form-horizontal" method="post" action="{:U()}">
+                    <div class="am-form-group">
+                        <label for="user-name" class="am-u-sm-3 am-form-label">名称</label>
+                        <div class="am-u-sm-9">
+                            <input style="font-size:12px;" type="text" name="name" maxlength="60" value="{$name}">
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label for="user-name" class="am-u-sm-3 am-form-label">描述</label>
+                        <div class="am-u-sm-9">
+                            <textarea  style="font-size:12px;" name="intro" cols="60" rows="4">{$intro}</textarea>
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label for="user-name" class="am-u-sm-3 am-form-label">状态</label>
+                        <div class="am-u-sm-9">
+                            <input type="radio" name="status" class="status" value="1"/>启用
+                            <input type="radio" name="status" class="status" value="0"/>禁用
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label for="user-name" class="am-u-sm-3 am-form-label">排序</label>
+                        <div class="am-u-sm-9">
+                            <input type="text" name="sort" maxlength="60" value="{$sort|default=20}" />
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label for="user-name" class="am-u-sm-3 am-form-label">默认</label>
+                        <div class="am-u-sm-9">
+                            <input type="radio" name="is_default" class="is_default" value="1"/>是
+                            <input type="radio" name="is_default" class="is_default" value="0"/>否
+                        </div>
+                    </div>
+                    <div style="text-align: center">
+                        <input type="hidden" name="id" value="{$id}"/>
+                        <input type="submit" class="button ajax-post" value="确定"/>
+                        <input type="reset" class="button" value="重置"/>
+                    </div>
+    <script type="text/javascript">
+        $(function(){
+            $('.status').val([1]);
+            $('.is_default').val([1]);
+        });
+    </script>

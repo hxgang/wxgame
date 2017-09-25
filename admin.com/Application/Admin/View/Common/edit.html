@@ -1,0 +1,47 @@
+<!-- $Id: brand_info.htm 14216 2008-03-10 02:27:21Z testyang $ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>韩国馆 管理中心 - 添加品牌 </title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="__CSS__/general.css" rel="stylesheet" type="text/css"/>
+    <link href="__CSS__/main.css" rel="stylesheet" type="text/css"/>
+    <block name="css">
+        <!---这里是预留的css样式块---->
+    </block>
+</head>
+<body>
+<h1>
+ <block name="title">
+     <span class="action-span"><a href="{:U('index')}">{:mb_substr($meta_title,2,'','utf-8')}列表</a></span>
+     <span class="action-span1"><a href="#">韩国馆 管理中心</a></span>
+     <span id="search_id" class="action-span1"> - {$meta_title} </span>
+     <div style="clear:both"></div>
+ </block>
+</h1>
+<div class="main-div">
+    <block name="form">
+        <!--这里可以重写表单-->
+    </block>
+
+</div>
+
+<div id="footer">
+
+</div>
+
+<script type="text/javascript" src="__JS__/jquery-1.11.2.js"></script>
+<script type="text/javascript" src="__LAYER__"></script>
+<script type="text/javascript" src="__JS__/common.js"></script>
+<block name="js">
+    <!---这里是预留的js块---->
+</block>
+<script type="text/javascript">
+    $(function () {
+        //>>1.给是否显示的单选按钮设置值，让它被选中
+        $('.status').val([{$status |default = 1}]);
+    });
+</script>
+</body>
+</html>

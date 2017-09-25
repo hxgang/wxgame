@@ -1,0 +1,41 @@
+<extend name="Common:index"/>
+<block name="search"></block>
+<block name="meta_title"></block>
+<block name="center">
+    <div class="list-div" id="listDiv">
+        <input type="button" class="button ajax-post" url="{:U('changeStatus')}" value="删除选中"/>
+        <table cellpadding="3" cellspacing="1">
+            <tr>
+                <th width="50px">序号<input type="checkbox" class="all"/></th>
+                <th>订单</th>
+                <th>用户名</th>
+                <th>商品ids</th>
+                <th>评论时间</th>
+                <th>级别</th>
+                <th>操作</th>
+            </tr>
+            <volist name="rows" id="row">
+                <tr>
+                    <td align="center"><input type="checkbox" name="id[]" class="id" value="{$row.id}"/></td>
+                    <td align='center'>{$row.sn}</td>
+                    <td align='center'>{$row.username}</td>
+                    <td align='center'>{$row.goods_ids}</td>
+                    <td align='center'>{$row.create_at|date='Y-m-d H:i:s',###}</td>
+                    <td align='center'>
+                        <switch name="row.start">
+                            <case value="1">好</case>
+                            <case value="2">中</case>
+                            <case value="3">差</case>
+                        </switch>
+                    </td>
+                    <td align="center">
+                        <a href="{:U('detail',array('id'=>$row['id']))}" title="详情">详情</a>
+                    </td>
+                </tr>
+            </volist>
+        </table>
+        <div class="page">
+            {$pageHTML}
+        </div>
+    </div>
+</block>

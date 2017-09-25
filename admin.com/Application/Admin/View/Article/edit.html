@@ -1,0 +1,89 @@
+<extend name="Common:edit"/>
+<block name="css">
+    <style type="text/css">
+        td.label{
+            text-align: left;
+            width:100px;
+        }
+    </style>
+</block>
+<block name="form">
+    <form method="post" action="{:U()}">
+        <table cellspacing="1" cellpadding="3" width="100%">
+            <tr>
+                <td class="label">标题</td>
+                <td>
+                    <input type="text" name="name" maxlength="60" value="{$name}"> <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">文章分类</td>
+                <td>
+                    {:arr2selected('article_category_id',$article_categorys,$article_category_id)}
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">摘要</td>
+                <td>
+                    <textarea name="intro">{$intro}</textarea>
+                   <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">内容</td>
+                <td>
+                    <textarea name="content" id="content">{$content}</textarea>
+                     <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+            <tr>
+                <td class="label">状态</td>
+                <td>
+                    <input type="radio" name="status" class="status" value="1"/>是
+                    <input type="radio" name="status" class="status" value="0"/>否
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">排序</td>
+                <td>
+                    <input type="text" name="sort" maxlength="60" value="{$sort|default=20}"> <span
+                        class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><br/>
+                    <input type="hidden" name="id" value="{$id}"/>
+                    <input type="submit" class="button ajax-post" value=" 确定 "/>
+                    <input type="reset" class="button" value=" 重置 "/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</block>
+<block name="js">
+    <script type="text/javascript" charset="utf-8" src="__UEDITOR__/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__UEDITOR__/ueditor.all.min.js"></script>
+    <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
+    <script type="text/javascript" charset="utf-8" src="__UEDITOR__/lang/zh-cn/zh-cn.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            /*-------------默认值 开始-------------------------*/
+
+            $('.status').val([{$status|default=1}]);
+
+            /*-------------默认值 结束-------------------------*/
+
+           /*-------------编辑器 开始-------------------------*/
+            UE.getEditor('content',{
+                initialFrameWidth:700,  //初始化编辑器宽度,默认700
+                initialFrameHeight:320  //初始化编辑器高度,默认320
+                //默认是自动增高的。
+        });
+           /*-------------编辑器 结束-------------------------*/
+        });
+
+    </script>
+</block>

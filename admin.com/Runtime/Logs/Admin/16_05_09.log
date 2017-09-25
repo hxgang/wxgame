@@ -1,0 +1,54 @@
+[ 2016-05-09T20:53:52+08:00 ] 127.0.0.1 /shop/www.19890407.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019890s ]
+ERR: _NOT_SUPPERT_:redis
+
+[ 2016-05-09T20:58:58+08:00 ] 127.0.0.1 /shop/www.19890407.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+ERR: _NOT_SUPPERT_:redis
+
+[ 2016-05-09T20:59:27+08:00 ] 127.0.0.1 /shop/www.19890407.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+ERR: _NOT_SUPPERT_:redis
+
+[ 2016-05-09T20:59:29+08:00 ] 127.0.0.1 /shop/www.19890407.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+ERR: _NOT_SUPPERT_:redis
+
+[ 2016-05-09T21:01:32+08:00 ] 127.0.0.1 /shop/www.19890407.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: _NOT_SUPPERT_:redis
+
+[ 2016-05-09T22:16:12+08:00 ] 127.0.0.1 /shop/www.19890407.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+ERR: _NOT_SUPPERT_:redis
+

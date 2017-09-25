@@ -1,0 +1,42 @@
+<extend name="Common:index"/>
+<block name="search"></block>
+<block name="css">
+    <link href="__TREEGRID__/css/jquery.treegrid.css" rel="stylesheet" type="text/css"/>
+</block>
+<block name="center">
+    <div class="list-div" id="listDiv">
+        <table cellpadding="3" cellspacing="1" class="tree">
+            <tr>
+                <th>菜单名称</th>
+                <th>菜单的URL</th>
+                <th>简介</th>
+                <th>状态</th>
+                <th>排序</th>
+                <th>操作</th>
+            </tr>
+            <volist name="rows" id="row">
+                <tr class="treegrid-{$row.id} <neq name="row.level" value="1">treegrid-parent-{$row.parent_id}</neq>">
+                <td>{$row.name}</td>
+                <td align='center'>{$row.url}</td>
+                <td align='center'>{$row.intro}</td>
+                <td align="center"><a class="ajax-get"
+                                      href="{:U('changeStatus',array('id'=>$row['id'],'status'=>1-$row['status']))}"><img
+                        src="__IMG__/{$row.status}.gif" alt=""/></a></td>
+                <td align='center'>{$row.sort}</td>
+                <td align="center">
+                    <a href="{:U('edit',array('id'=>$row['id']))}" title="编辑">编辑</a> |
+                    <a class="ajax-get" href="{:U('changeStatus',array('id'=>$row['id']))}" title="移除">移除</a>
+                </td>
+                </tr>
+            </volist>
+        </table>
+    </div>
+</block>
+<block name="js">
+    <script type="text/javascript" src="__TREEGRID__/js/jquery.treegrid.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('.tree').treegrid();
+        });
+    </script>
+</block>

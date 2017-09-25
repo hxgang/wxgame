@@ -1,0 +1,4 @@
+[ 2015-10-30T19:12:14+08:00 ] 127.0.0.1 /Supplier/edit.html
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `supplier` (`name`,`intro`,`sort`,`status`,`id`) VALUES ('上海供货商1','上海供货商1','20','1','2')
+

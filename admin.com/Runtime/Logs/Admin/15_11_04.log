@@ -1,0 +1,128 @@
+[ 2015-11-04T11:11:29+08:00 ] 127.0.0.1 /Gii/index.html
+ERR: 1146:Table 'shop.bradn' doesn't exist
+ [ SQL语句 ] : show full columns from `bradn`
+
+[ 2015-11-04T17:26:22+08:00 ] 192.168.0.222 /Brand/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0022s ]
+SQL: INSERT INTO `brand` (`name`,`url`,`intro`,`status`,`sort`,`id`) VALUES ('few','efwe','wdfw','0','4','0') [ RunTime:0.0006s ]
+
+[ 2015-11-04T17:26:32+08:00 ] 192.168.0.222 /Brand/changeStatus/id/22/status/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0012s ]
+SQL: UPDATE `brand` SET `status`='1' WHERE `id` IN ('22') [ RunTime:0.0008s ]
+
+[ 2015-11-04T17:28:17+08:00 ] 192.168.0.222 /Brand/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0008s ]
+SQL: UPDATE `brand` SET `name`='few',`url`='efwe',`intro`='wdfw',`status`='0',`sort`='5' WHERE `id` = 25 [ RunTime:0.0005s ]
+
+[ 2015-11-04T17:54:50+08:00 ] 192.168.0.222 /Public/Admin/uploadify/.uploadify.css
+ERR: 无法加载控制器:404
+
+[ 2015-11-04T17:55:30+08:00 ] 192.168.0.222 /Public/Admin/uploadify/.uploadify.css
+ERR: 无法加载控制器:404
+
+[ 2015-11-04T17:55:37+08:00 ] 192.168.0.222 /Public/Admin/uploadify/.uploadify.css
+ERR: 无法加载控制器:404
+
+[ 2015-11-04T18:25:22+08:00 ] 192.168.0.222 /test/img/uploadify-cancel.png
+ERR: 无法加载控制器:404
+
+[ 2015-11-04T22:06:45+08:00 ] 127.0.0.1 /Brand/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: logo E:\shop\www.19890407.com\Application\Admin\Controller\BaseController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+SQL: INSERT INTO `brand` (`name`,`url`,`intro`,`status`,`sort`,`id`) VALUES ('dw','dwdw','dwdw','1','20','0') [ RunTime:0.1600s ]
+
+[ 2015-11-04T22:15:19+08:00 ] 127.0.0.1 /Brand/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0060s ]
+SQL: UPDATE `brand` SET `status`='-1',`name`=concat(name,"_del") WHERE `id` IN ('19','18','21','22','23','24') [ RunTime:0.0470s ]
+
+[ 2015-11-04T22:15:24+08:00 ] 127.0.0.1 /Brand/changeStatus/id/25/status/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0060s ]
+SQL: UPDATE `brand` SET `status`='1' WHERE `id` IN ('25') [ RunTime:0.0000s ]
+
+[ 2015-11-04T23:29:09+08:00 ] 192.168.1.102 /Brand/
+ERR: 非法操作:index.php
+
+[ 2015-11-04T23:36:44+08:00 ] 192.168.1.102 /Brand/
+ERR: 非法操作:index.php
+
+[ 2015-11-04T23:37:25+08:00 ] 192.168.1.102 /Brand/
+ERR: 非法操作:index.php
+
+[ 2015-11-04T23:39:52+08:00 ] 192.168.1.102 /Brand/
+ERR: 非法操作:index.php
+
+[ 2015-11-04T23:40:05+08:00 ] 192.168.1.102 /Uploads/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Class%20'Admin%5CController%5CUpload'%20not%20found%20in%20%3Cb%3E/home/www/www.19890407.com/Application/Admin/Controller/UploaderController.class.php%3C/b%3E%20on%20line%20%3Cb%3E37%3C/b%3E%3Cbr%20/%3E%3C!DOCTYPE%20html%20PUBLIC%20%22-//W3C//DTD%20XHTML%201.0%20Transitional//EN%22%20%22http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd%22%3E%3Chtml%20xmlns=%22http://www.w3.org/1999/xhtml%22%3E%3Chead%3E%3Cmeta%20content=%22text/html;%20charset=utf-8%22%20http-equiv=%22Content-Type%22%3E%3Ctitle%3E%E7%B3%BB%E7%BB%9F%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF%3C/title%3E%3Cstyle%20type=%22text/css%22%3E*%7B%20padding:%200;%20margin:%200;%20%7Dhtml%7B%20overflow-y:%20scroll;%20%7Dbody%7B%20background:%20
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-04T23:42:10+08:00 ] 192.168.1.102 /Brand/
+ERR: 非法操作:index.php
+
+[ 2015-11-04T23:42:32+08:00 ] 192.168.1.102 /Uploads/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Class%20'Admin%5CController%5CUpload'%20not%20found%20in%20%3Cb%3E/home/www/www.19890407.com/Application/Admin/Controller/UploaderController.class.php%3C/b%3E%20on%20line%20%3Cb%3E37%3C/b%3E%3Cbr%20/%3E%3C!DOCTYPE%20html%20PUBLIC%20%22-//W3C//DTD%20XHTML%201.0%20Transitional//EN%22%20%22http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd%22%3E%3Chtml%20xmlns=%22http://www.w3.org/1999/xhtml%22%3E%3Chead%3E%3Cmeta%20content=%22text/html;%20charset=utf-8%22%20http-equiv=%22Content-Type%22%3E%3Ctitle%3E%E7%B3%BB%E7%BB%9F%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF%3C/title%3E%3Cstyle%20type=%22text/css%22%3E*%7B%20padding:%200;%20margin:%200;%20%7Dhtml%7B%20overflow-y:%20scroll;%20%7Dbody%7B%20background:%20
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-04T23:43:40+08:00 ] 192.168.1.102 /Brand/
+ERR: 非法操作:index.php
+
+[ 2015-11-04T23:44:16+08:00 ] 192.168.1.102 /Uploads/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Class%20'Admin%5CController%5CUpload'%20not%20found%20in%20%3Cb%3E/home/www/www.19890407.com/Application/Admin/Controller/UploaderController.class.php%3C/b%3E%20on%20line%20%3Cb%3E37%3C/b%3E%3Cbr%20/%3E%3C!DOCTYPE%20html%20PUBLIC%20%22-//W3C//DTD%20XHTML%201.0%20Transitional//EN%22%20%22http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd%22%3E%3Chtml%20xmlns=%22http://www.w3.org/1999/xhtml%22%3E%3Chead%3E%3Cmeta%20content=%22text/html;%20charset=utf-8%22%20http-equiv=%22Content-Type%22%3E%3Ctitle%3E%E7%B3%BB%E7%BB%9F%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF%3C/title%3E%3Cstyle%20type=%22text/css%22%3E*%7B%20padding:%200;%20margin:%200;%20%7Dhtml%7B%20overflow-y:%20scroll;%20%7Dbody%7B%20background:%20
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-04T23:44:32+08:00 ] 192.168.1.102 /Brand/
+ERR: 非法操作:index.php
+
+[ 2015-11-04T23:46:02+08:00 ] 192.168.1.102 /Brand/
+ERR: 非法操作:index.php
+
+[ 2015-11-04T23:47:42+08:00 ] 192.168.1.102 /Brand/
+ERR: 非法操作:index.php
+
+[ 2015-11-04T23:48:38+08:00 ] 192.168.1.102 /Brand/
+ERR: 非法操作:index.php
+
+[ 2015-11-04T23:51:50+08:00 ] 192.168.1.102 /Brand/
+ERR: 非法操作:index.php
+
+[ 2015-11-04T23:51:54+08:00 ] 192.168.1.102 /Uploads/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20Think%5CUpload%5CDriver%5Ccurl_init()%20in%20%3Cb%3E/home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php%3C/b%3E%20on%20line%20%3Cb%3E117%3C/b%3E%3Cbr%20/%3E%3C!DOCTYPE%20html%20PUBLIC%20%22-//W3C//DTD%20XHTML%201.0%20Transitional//EN%22%20%22http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd%22%3E%3Chtml%20xmlns=%22http://www.w3.org/1999/xhtml%22%3E%3Chead%3E%3Cmeta%20content=%22text/html;%20charset=utf-8%22%20http-equiv=%22Content-Type%22%3E%3Ctitle%3E%E7%B3%BB%E7%BB%9F%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF%3C/title%3E%3Cstyle%20type=%22text/css%22%3E*%7B%20padding:%200;%20margin:%200;%20%7Dhtml%7B%20overflow-y:%20scroll;%20%7Dbody%7B%20background:%20
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-04T23:53:35+08:00 ] 192.168.1.102 /Brand/
+ERR: 非法操作:index.php
+
+[ 2015-11-04T23:54:36+08:00 ] 192.168.1.102 /Brand/
+ERR: 非法操作:index.php
+
+[ 2015-11-04T23:54:39+08:00 ] 192.168.1.102 /Uploads/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20Think%5CUpload%5CDriver%5Ccurl_init()%20in%20%3Cb%3E/home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php%3C/b%3E%20on%20line%20%3Cb%3E117%3C/b%3E%3Cbr%20/%3E%3C!DOCTYPE%20html%20PUBLIC%20%22-//W3C//DTD%20XHTML%201.0%20Transitional//EN%22%20%22http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd%22%3E%3Chtml%20xmlns=%22http://www.w3.org/1999/xhtml%22%3E%3Chead%3E%3Cmeta%20content=%22text/html;%20charset=utf-8%22%20http-equiv=%22Content-Type%22%3E%3Ctitle%3E%E7%B3%BB%E7%BB%9F%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF%3C/title%3E%3Cstyle%20type=%22text/css%22%3E*%7B%20padding:%200;%20margin:%200;%20%7Dhtml%7B%20overflow-y:%20scroll;%20%7Dbody%7B%20background:%20
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-04T23:55:22+08:00 ] 192.168.1.102 /Brand/
+ERR: 非法操作:index.php
+
+[ 2015-11-04T23:55:25+08:00 ] 192.168.1.102 /Uploads/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20Think%5CUpload%5CDriver%5Ccurl_init()%20in%20%3Cb%3E/home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php%3C/b%3E%20on%20line%20%3Cb%3E117%3C/b%3E%3Cbr%20/%3E%3C!DOCTYPE%20html%20PUBLIC%20%22-//W3C//DTD%20XHTML%201.0%20Transitional//EN%22%20%22http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd%22%3E%3Chtml%20xmlns=%22http://www.w3.org/1999/xhtml%22%3E%3Chead%3E%3Cmeta%20content=%22text/html;%20charset=utf-8%22%20http-equiv=%22Content-Type%22%3E%3Ctitle%3E%E7%B3%BB%E7%BB%9F%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF%3C/title%3E%3Cstyle%20type=%22text/css%22%3E*%7B%20padding:%200;%20margin:%200;%20%7Dhtml%7B%20overflow-y:%20scroll;%20%7Dbody%7B%20background:%20
+ERR: 无法加载控制器:Uploads
+

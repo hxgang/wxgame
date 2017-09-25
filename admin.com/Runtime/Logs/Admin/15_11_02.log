@@ -1,0 +1,560 @@
+[ 2015-11-02T00:01:29+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:status
+
+[ 2015-11-02T00:02:38+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 参数错误或者未定义:status
+
+[ 2015-11-02T00:02:41+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:status
+
+[ 2015-11-02T00:03:21+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 参数错误或者未定义:status
+
+[ 2015-11-02T00:05:45+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:status
+
+[ 2015-11-02T00:05:54+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 参数错误或者未定义:status
+
+[ 2015-11-02T00:07:42+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T00:09:37+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 参数错误或者未定义:status
+
+[ 2015-11-02T00:13:19+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 参数错误或者未定义:status
+
+[ 2015-11-02T00:13:38+08:00 ] 127.0.0.1 /Supplier/changeStatus/id/12/status/0.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0070s ]
+SQL: UPDATE `supplier` SET `status`='0' WHERE `id` IN ('12') [ RunTime:0.0010s ]
+
+[ 2015-11-02T01:04:41+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T01:05:14+08:00 ] 127.0.0.1 /Supplier/changeSort?sort=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T01:10:51+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T01:10:51+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T01:11:03+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T01:11:10+08:00 ] 127.0.0.1 /Supplier/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `supplier` WHERE `name` = '上海供货商' AND `id` <> '2' LIMIT 1   [ RunTime:0.0280s ]
+SQL: UPDATE `supplier` SET `name`='上海供货商',`intro`='上海供货商2',`sort`='12',`status`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+
+[ 2015-11-02T01:11:27+08:00 ] 127.0.0.1 /Supplier/changeStatus/id/8/status/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0070s ]
+SQL: UPDATE `supplier` SET `status`='1' WHERE `id` IN ('8') [ RunTime:0.0010s ]
+
+[ 2015-11-02T09:11:56+08:00 ] 127.0.0.1 /Supplier/changeStatus/id/12/status/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: UPDATE `supplier` SET `status`='1' WHERE `id` IN ('12') [ RunTime:0.1220s ]
+
+[ 2015-11-02T09:12:05+08:00 ] 127.0.0.1 /Supplier/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `supplier` WHERE `name` = 'fefe' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `supplier` (`name`,`intro`,`sort`,`status`,`id`) VALUES ('fefe','efe','20','0','0') [ RunTime:0.0860s ]
+
+[ 2015-11-02T09:12:09+08:00 ] 127.0.0.1 /Supplier/changeStatus/id/13/status/-1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: UPDATE `supplier` SET `status`='-1',`name`=concat(name,"_del") WHERE `id` IN ('13') [ RunTime:0.0770s ]
+
+[ 2015-11-02T09:12:18+08:00 ] 127.0.0.1 /Supplier/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `supplier` WHERE `name` = '上海供货商' AND `id` <> '2' LIMIT 1   [ RunTime:0.0410s ]
+SQL: UPDATE `supplier` SET `name`='上海供货商',`intro`='上海供货商',`sort`='12',`status`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+
+[ 2015-11-02T09:12:23+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:12:23+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:14:19+08:00 ] 127.0.0.1 /Supplier/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `supplier` WHERE `name` = 'ere' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `supplier` (`name`,`intro`,`sort`,`status`,`id`) VALUES ('ere','ere','20','1','0') [ RunTime:0.0000s ]
+
+[ 2015-11-02T09:14:28+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:14:28+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:26:33+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:changeSort
+
+[ 2015-11-02T09:26:33+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:26:42+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:changeSort
+
+[ 2015-11-02T09:26:43+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:27:30+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:changeSort
+
+[ 2015-11-02T09:27:30+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:27:45+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:changeSort
+
+[ 2015-11-02T09:27:45+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:29:14+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:changeSort
+
+[ 2015-11-02T09:29:14+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:29:38+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:changeSort
+
+[ 2015-11-02T09:30:32+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:changeSort
+
+[ 2015-11-02T09:32:19+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:status
+
+[ 2015-11-02T09:32:58+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:35:33+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: UPDATE `supplier` SET `status`='-1',`name`=concat(name,"_del") WHERE `id` IN ('14') [ RunTime:0.0010s ]
+
+[ 2015-11-02T09:40:29+08:00 ] 127.0.0.1 /Supplier/changeStatus/id/1/status/0.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: UPDATE `supplier` SET `status`='0' WHERE `id` IN ('1') [ RunTime:0.0000s ]
+
+[ 2015-11-02T09:40:34+08:00 ] 127.0.0.1 /Supplier/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `supplier` WHERE `name` = '上海供货商1' AND `id` <> '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `supplier` SET `name`='上海供货商1',`intro`='上海供货商',`sort`='12',`status`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+
+[ 2015-11-02T09:41:51+08:00 ] 127.0.0.1 /Supplier/changeStatus/id/11/status/0.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: UPDATE `supplier` SET `status`='0' WHERE `id` IN ('11') [ RunTime:0.0000s ]
+
+[ 2015-11-02T09:41:58+08:00 ] 127.0.0.1 /Supplier/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `supplier` WHERE `name` = 'fefe' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `supplier` (`name`,`intro`,`sort`,`status`,`id`) VALUES ('fefe','fefe','20','1','0') [ RunTime:0.0010s ]
+
+[ 2015-11-02T09:42:05+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0050s ]
+SQL: UPDATE `supplier` SET `status`='-1',`name`=concat(name,"_del") WHERE `id` IN ('12','15') [ RunTime:0.0830s ]
+
+[ 2015-11-02T09:43:06+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:43:12+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:43:39+08:00 ] 127.0.0.1 /Supplier/changeSort
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:46:01+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:46:01+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:48:36+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:49:07+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:49:31+08:00 ] 127.0.0.1 /Supplier/changeSort
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-02T09:52:00+08:00 ] 127.0.0.1 /Supplier/changeSort
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-11-02T09:52:01+08:00 ] 127.0.0.1 /Supplier/undefined
+ERR: 非法操作:undefined
+
+[ 2015-11-02T10:18:24+08:00 ] 127.0.0.1 /Supplier/changeStatus/id/5/status/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0055s ]
+SQL: UPDATE `supplier` SET `status`='1' WHERE `id` IN ('5') [ RunTime:0.0005s ]
+
+[ 2015-11-02T12:40:57+08:00 ] 127.0.0.1 /Supplier/changeStatus/id/7/status/0.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: UPDATE `supplier` SET `status`='0' WHERE `id` IN ('7') [ RunTime:0.0000s ]
+
+[ 2015-11-02T12:41:02+08:00 ] 127.0.0.1 /Supplier/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `supplier` WHERE `name` = '广东供货商1' AND `id` <> '7' LIMIT 1   [ RunTime:0.0810s ]
+SQL: UPDATE `supplier` SET `name`='广东供货商1',`intro`='广东供货商',`sort`='20',`status`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+
+[ 2015-11-02T12:41:05+08:00 ] 127.0.0.1 /Supplier/changeStatus/id/11/status/-1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: UPDATE `supplier` SET `status`='-1',`name`=concat(name,"_del") WHERE `id` IN ('11') [ RunTime:0.0000s ]
+
+[ 2015-11-02T12:41:11+08:00 ] 127.0.0.1 /Supplier/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `supplier` WHERE `name` = '曾多次到' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `supplier` (`name`,`intro`,`sort`,`status`,`id`) VALUES ('曾多次到','测测','20','1','0') [ RunTime:0.0010s ]
+
+[ 2015-11-02T12:41:20+08:00 ] 127.0.0.1 /Supplier/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `supplier` WHERE `name` = '的所谓的晚' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `supplier` (`name`,`intro`,`sort`,`status`,`id`) VALUES ('的所谓的晚','德尔','20','1','0') [ RunTime:0.0000s ]
+
+[ 2015-11-02T12:41:24+08:00 ] 127.0.0.1 /Supplier/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: UPDATE `supplier` SET `status`='-1',`name`=concat(name,"_del") WHERE `id` IN ('17') [ RunTime:0.0000s ]
+
+[ 2015-11-02T12:46:30+08:00 ] 127.0.0.1 /Supplier/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+
+[ 2015-11-02T12:46:36+08:00 ] 127.0.0.1 /Supplier/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0050s ]
+
+[ 2015-11-02T12:53:37+08:00 ] 127.0.0.1 /Supplier/index.html?keyword=
+ERR: 无法加载控制器:Supplier
+
+[ 2015-11-02T12:53:43+08:00 ] 127.0.0.1 /Supplier/index.html
+ERR: 无法加载控制器:Supplier
+
+[ 2015-11-02T12:54:00+08:00 ] 127.0.0.1 /Supplier/index.html
+ERR: 无法加载控制器:Supplier
+
+[ 2015-11-02T12:54:01+08:00 ] 127.0.0.1 /Supplier/index.html
+ERR: 无法加载控制器:Supplier
+
+[ 2015-11-02T12:54:01+08:00 ] 127.0.0.1 /Supplier/index.html
+ERR: 无法加载控制器:Supplier
+
+[ 2015-11-02T12:54:01+08:00 ] 127.0.0.1 /Supplier/index.html
+ERR: 无法加载控制器:Supplier
+
+[ 2015-11-02T12:54:02+08:00 ] 127.0.0.1 /Supplier/index.html
+ERR: 无法加载控制器:Supplier
+
+[ 2015-11-02T12:54:03+08:00 ] 127.0.0.1 /Supplier/index.html
+ERR: 无法加载控制器:Supplier
+
+[ 2015-11-02T12:55:32+08:00 ] 127.0.0.1 /Supplier/index.html
+ERR: 无法加载控制器:Supplier
+
+[ 2015-11-02T12:55:34+08:00 ] 127.0.0.1 /Supplier/index.html
+ERR: 无法加载控制器:Supplier
+
+[ 2015-11-02T12:55:39+08:00 ] 127.0.0.1 /Supplier/index.html
+ERR: 无法加载控制器:Supplier
+
+[ 2015-11-02T13:00:47+08:00 ] 127.0.0.1 /Supplier/index.html
+ERR: 无法加载控制器:Supplier
+
+[ 2015-11-02T13:02:31+08:00 ] 127.0.0.1 /Brand/index.html
+ERR: 1146:Table 'shop.brand' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `brand`
+
+[ 2015-11-02T13:11:21+08:00 ] 127.0.0.1 /Brand/index.html
+ERR: Think\Model:getPageResult方法不存在！
+
+[ 2015-11-02T13:12:14+08:00 ] 127.0.0.1 /Brand/index.html
+ERR: 模板不存在:E:/shop/www.19890407.com//Application/Admin/View/Brand/index.html
+
+[ 2015-11-02T13:21:48+08:00 ] 127.0.0.1 /Supplier/changeStatus/id/8/status/0.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: UPDATE `supplier` SET `status`='0' WHERE `id` IN ('8') [ RunTime:0.0005s ]
+
+[ 2015-11-02T13:21:53+08:00 ] 127.0.0.1 /Supplier/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `supplier` WHERE `name` = '福建供货商' AND `id` <> '8' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `supplier` SET `name`='福建供货商',`intro`='福建供货商1',`sort`='20',`status`='0' WHERE `id` = 8 [ RunTime:0.0005s ]
+
+[ 2015-11-02T13:21:56+08:00 ] 127.0.0.1 /Supplier/changeStatus/id/16/status/-1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0065s ]
+SQL: UPDATE `supplier` SET `status`='-1',`name`=concat(name,"_del") WHERE `id` IN ('16') [ RunTime:0.0010s ]
+
+[ 2015-11-02T13:22:02+08:00 ] 127.0.0.1 /Supplier/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `supplier` WHERE `name` = 'DW' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `supplier` (`name`,`intro`,`sort`,`status`,`id`) VALUES ('DW','DW','20','1','0') [ RunTime:0.0010s ]
+
+[ 2015-11-02T13:24:56+08:00 ] 127.0.0.1 /Brand/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `brand` WHERE `name` = 'ee' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `brand` (`name`,`url`,`intro`,`sort`,`status`,`id`) VALUES ('ee','ee','ee','20','1','0') [ RunTime:0.0005s ]
+
+[ 2015-11-02T13:25:06+08:00 ] 127.0.0.1 /Brand/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `brand` WHERE `name` = 'dedw' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `brand` (`name`,`url`,`intro`,`sort`,`status`,`id`) VALUES ('dedw','efdwef','wfewfw','3','1','0') [ RunTime:0.0005s ]
+
+[ 2015-11-02T13:25:08+08:00 ] 127.0.0.1 /Brand/changeStatus/id/18/status/0.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0065s ]
+SQL: UPDATE `brand` SET `status`='0' WHERE `id` IN ('18') [ RunTime:0.0110s ]
+
+[ 2015-11-02T13:25:13+08:00 ] 127.0.0.1 /Brand/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `brand` WHERE `name` = 'eewdwd' AND `id` <> '18' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `brand` SET `name`='eewdwd',`url`='ee',`intro`='ee',`sort`='20',`status`='0' WHERE `id` = 18 [ RunTime:0.0005s ]
+
+[ 2015-11-02T13:25:20+08:00 ] 127.0.0.1 /Brand/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `brand` WHERE `name` = 'dwdw' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `brand` (`name`,`url`,`intro`,`sort`,`status`,`id`) VALUES ('dwdw','wdwdw','dwdwd','20','1','0') [ RunTime:0.0010s ]
+
+[ 2015-11-02T13:25:25+08:00 ] 127.0.0.1 /Brand/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0060s ]
+SQL: UPDATE `brand` SET `status`='-1',`name`=concat(name,"_del") WHERE `id` IN ('20') [ RunTime:0.0010s ]
+
+[ 2015-11-02T13:25:40+08:00 ] 127.0.0.1 /Brand/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `brand` WHERE `name` = '22' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `brand` (`name`,`url`,`intro`,`sort`,`status`,`id`) VALUES ('22','dd3','d3d','20','1','0') [ RunTime:0.0010s ]
+
+[ 2015-11-02T13:36:55+08:00 ] 127.0.0.1 /Brand/index.html?keyword=
+ERR: Think\Controller:assigm方法不存在！
+
+[ 2015-11-02T13:48:12+08:00 ] 127.0.0.1 /Brand/indexyy.html
+ERR: 非法操作:indexyy
+
+[ 2015-11-02T13:48:16+08:00 ] 127.0.0.1 /Brand/indexyy.html
+ERR: 非法操作:indexyy
+
+[ 2015-11-02T13:48:23+08:00 ] 127.0.0.1 /Brand/indexyy.html
+ERR: 非法操作:indexyy
+
+[ 2015-11-02T18:22:18+08:00 ] 192.168.10.1 /Supplier/index
+ERR: SQLSTATE[HY000] [1049] Unknown database 'shop'
+
+[ 2015-11-02T18:24:17+08:00 ] 192.168.10.1 /Supplier/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `supplier` WHERE `name` = 'DWwd' AND `id` <> '18' LIMIT 1   [ RunTime:0.1305s ]
+SQL: UPDATE `supplier` SET `name`='DWwd',`intro`='DW',`sort`='3',`status`='1' WHERE `id` = 18 [ RunTime:0.0198s ]
+

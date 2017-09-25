@@ -1,0 +1,53 @@
+<extend name="Common:index"/>
+<block name="center">
+    <div class="list-div" id="listDiv">
+        <input type="button" class="button ajax-post" url="{:U('changeStatus')}" value="删除选中"/>
+        <table cellpadding="3" cellspacing="1">
+            <tr>
+                <th width="50px">序号<input type="checkbox" class="all"/></th>
+                <th>商品名称</th>
+                <th>货号</th>
+                <th>商品分类</th>
+                <th>商品品牌</th>
+                <th>商品供货商</th>
+                <th>本店价格</th>
+                <th>市场价格</th>
+                <th>库存</th>
+                <th>是否上架</th>
+                <th>商品状态</th>
+                <th>关键字</th>
+                <th>品牌LOGO</th>
+                <th>排序</th>
+                <th>操作</th>
+            </tr>
+            <volist name="rows" id="row">
+                <tr>
+                    <td align="center"><input type="checkbox" name="id[]" class="id" value="{$row.id}"/></td>
+                    <td align='center'>{$row.name}</td>
+                    <td align='center'>{$row.sn}</td>
+                    <td align='center'>{$row.goods_category_id}</td>
+                    <td align='center'>{$row.brand_id}</td>
+                    <td align='center'>{$row.supplier_id}</td>
+                    <td align='center'>{$row.shop_price}</td>
+                    <td align='center'>{$row.market_price}</td>
+                    <td align='center'>{$row.stock}</td>
+                    <td align='center'>{$row.is_on_sale}</td>
+                    <td align='center'>{$row.goods_status}</td>
+                    <td align='center'>{$row.keyword}</td>
+                    <td align='center'>{$row.logo}</td>
+                    <td align='center'>{$row.sort}</td>
+                    <td align="center">
+                        <a class="ajax-get" href="{:U('changeStatus',array('id'=>$row['id'],'status'=>1))}" title="还原">还原</a> |
+                        <a class="ajax-get" href="{:U('delete',array('id'=>$row['id']))}" title="移除">移除</a>
+                    </td>
+                </tr>
+            </volist>
+        </table>
+        <div class="page">
+            {$pageHtml}
+        </div>
+    </div>
+</block>
+<block name="js">
+
+</block>

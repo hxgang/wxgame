@@ -1,0 +1,387 @@
+[ 2016-06-04T13:29:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002257s ]
+INFO: [ action_begin ] --START--
+
+[ 2016-06-04T13:29:30+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-06-04T13:29:31+08:00 ] 127.0.0.1 /Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000828s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000316s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000702s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003420s ]
+
+[ 2016-06-04T13:29:31+08:00 ] 127.0.0.1 /Verify/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001252s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001311s ]
+
+[ 2016-06-04T13:29:44+08:00 ] 127.0.0.1 /Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001198s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000638s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.182642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.183053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001261s ]
+
+[ 2016-06-04T13:29:47+08:00 ] 127.0.0.1 /Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000697s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000974s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2016-06-04T13:29:49+08:00 ] 127.0.0.1 /Verify/index.html?hhhhhh=0.16823438103996513
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000675s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001715s ]
+
+[ 2016-06-04T13:29:58+08:00 ] 127.0.0.1 /Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000710s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000946s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::add() should be compatible with that of Think\Model::add() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\AdminModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::save() should be compatible with that of Think\Model::save() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\AdminModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0381s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'root' LIMIT 1   [ RunTime:0.0009s ]
+SQL: select  distinct  id,url from permission  where id in
+        (select  distinct rp.permission_id from  admin_role as ar  join role_permission as rp on ar.role_id = rp.role_id  where ar.admin_id = 5) [ RunTime:0.0729s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000607s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002174s ]
+
+[ 2016-06-04T13:30:00+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000970s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000673s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.276535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.276867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001404s ]
+
+[ 2016-06-04T13:30:00+08:00 ] 127.0.0.1 /Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001200s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.192890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.193183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001601s ]
+
+[ 2016-06-04T13:30:00+08:00 ] 127.0.0.1 /Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002606s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003173s ]
+SQL: select id,`name`,`url`,`parent_id`,`level` from permission where  status=1 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000547s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000853s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2016-06-04T13:30:00+08:00 ] 127.0.0.1 /Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001867s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002197s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000547s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2016-06-04T13:30:04+08:00 ] 127.0.0.1 /Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001453s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001836s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0554s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT c.*,m.username,oi.sn FROM comment c LEFT JOIN member AS m ON m.id=c.member_id LEFT JOIN order_info AS oi ON oi.id=c.order_id  WHERE c.status = 1 ORDER BY c.id LIMIT 0,20   [ RunTime:0.0657s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\58e99cd4793a899b2ce82ecbbf7da6b4.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\58e99cd4793a899b2ce82ecbbf7da6b4.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2016-06-04T13:30:06+08:00 ] 127.0.0.1 /Comment/detail/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000831s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0032s ]
+SQL: SELECT c.*,m.username,oi.sn FROM comment c LEFT JOIN member AS m ON m.id=c.member_id LEFT JOIN order_info AS oi ON oi.id=c.order_id  WHERE c.status = 1 AND c.id = 4 ORDER BY c.id LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000378s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\4478b23c0d7891bec2efba85773146e0.php 第 17 行.
+NOTIC: [2] mb_substr() expects parameter 3 to be long, string given D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\4478b23c0d7891bec2efba85773146e0.php 第 17 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\4478b23c0d7891bec2efba85773146e0.php 第 19 行.
+NOTIC: [8] Undefined index: comment_id D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\4478b23c0d7891bec2efba85773146e0.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.182389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001913s ]
+
+[ 2016-06-04T13:30:27+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001784s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001444s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001820s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`sn`,`receiver`,`pay_status`,`order_status`,`shipping_status`,`inputtime` FROM `order_info` WHERE `status` > 0 ORDER BY id  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.3116s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47,48,49,50,52,53,54) )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 21 行.
+NOTIC: [8] Undefined variable: order_sn D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 29 行.
+NOTIC: [8] Undefined variable: receiver D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 30 行.
+NOTIC: [8] Undefined variable: pay_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 34 行.
+NOTIC: [8] Undefined variable: pay_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 35 行.
+NOTIC: [8] Undefined variable: shipping_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 40 行.
+NOTIC: [8] Undefined variable: shipping_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 41 行.
+NOTIC: [8] Undefined variable: shipping_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 42 行.
+NOTIC: [8] Undefined variable: order_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 47 行.
+NOTIC: [8] Undefined variable: order_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 48 行.
+NOTIC: [8] Undefined variable: order_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 49 行.
+NOTIC: [8] Undefined variable: order_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 50 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2016-06-04T13:30:33+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000820s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001020s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`sn`,`receiver`,`pay_status`,`order_status`,`shipping_status`,`inputtime` FROM `order_info` WHERE `status` > 0 ORDER BY id  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0035s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47,48,49,50,52,53,54) )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 21 行.
+NOTIC: [8] Undefined variable: order_sn D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 29 行.
+NOTIC: [8] Undefined variable: receiver D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 30 行.
+NOTIC: [8] Undefined variable: pay_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 34 行.
+NOTIC: [8] Undefined variable: pay_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 35 行.
+NOTIC: [8] Undefined variable: shipping_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 40 行.
+NOTIC: [8] Undefined variable: shipping_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 41 行.
+NOTIC: [8] Undefined variable: shipping_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 42 行.
+NOTIC: [8] Undefined variable: order_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 47 行.
+NOTIC: [8] Undefined variable: order_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 48 行.
+NOTIC: [8] Undefined variable: order_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 49 行.
+NOTIC: [8] Undefined variable: order_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 50 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+

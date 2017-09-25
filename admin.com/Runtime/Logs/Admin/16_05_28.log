@@ -1,0 +1,3079 @@
+[ 2016-05-28T08:52:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+INFO: [ action_begin ] --START--
+
+[ 2016-05-28T08:52:25+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+
+[ 2016-05-28T08:52:25+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-05-28T08:52:25+08:00 ] 127.0.0.1 /Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000901s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000511s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-05-28T08:52:26+08:00 ] 127.0.0.1 /Verify/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000843s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2016-05-28T08:52:36+08:00 ] 127.0.0.1 /Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001104s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001307s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::add() should be compatible with that of Think\Model::add() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\AdminModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::save() should be compatible with that of Think\Model::save() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\AdminModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1308s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'root' LIMIT 1   [ RunTime:0.0008s ]
+SQL: select  distinct  id,url from permission  where id in
+        (select  distinct rp.permission_id from  admin_role as ar  join role_permission as rp on ar.role_id = rp.role_id  where ar.admin_id = 5) [ RunTime:0.1266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2016-05-28T08:52:37+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000856s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2016-05-28T08:52:38+08:00 ] 127.0.0.1 /Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001052s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2016-05-28T08:52:38+08:00 ] 127.0.0.1 /Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002287s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002609s ]
+SQL: select id,`name`,`url`,`parent_id`,`level` from permission where  status=1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000585s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2016-05-28T08:52:38+08:00 ] 127.0.0.1 /Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002601s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002890s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2016-05-28T11:21:56+08:00 ] 127.0.0.1 /Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001141s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001372s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with that of Think\Model::add() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with that of Think\Model::save() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `brand` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `supplier` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000525s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001948s ]
+
+[ 2016-05-28T11:21:58+08:00 ] 127.0.0.1 /Goods/changeStatus/id/36/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000855s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001028s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with that of Think\Model::add() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with that of Think\Model::save() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0041s ]
+SQL: UPDATE `goods` SET `status`='0' WHERE `id` IN ('36') [ RunTime:0.2048s ]
+
+[ 2016-05-28T11:21:59+08:00 ] 127.0.0.1 /Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000824s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001045s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with that of Think\Model::add() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with that of Think\Model::save() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `brand` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `supplier` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2016-05-28T15:25:32+08:00 ] 127.0.0.1 /Permission/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.019714s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.020153s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with that of Think\Model::add() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with that of Think\Model::save() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0427s ]
+SQL: SELECT `id`,`name`,`parent_id`,`intro`,`status`,`sort`,`url`,`level` FROM `permission` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000794s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001935s ]
+
+[ 2016-05-28T15:25:59+08:00 ] 127.0.0.1 /Permission/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002728s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003077s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with that of Think\Model::add() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with that of Think\Model::save() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`name`,`parent_id` FROM `permission` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000547s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001011s ]
+NOTIC: [2] mb_substr() expects parameter 3 to be long, string given D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 29 行.
+NOTIC: [8] Undefined variable: url D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 35 行.
+NOTIC: [8] Undefined variable: parent_id D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 41 行.
+NOTIC: [8] Undefined variable: intro D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 49 行.
+NOTIC: [8] Undefined variable: id D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001992s ]
+
+[ 2016-05-28T15:26:26+08:00 ] 127.0.0.1 /Permission/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001523s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001782s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with that of Think\Model::add() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with that of Think\Model::save() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0053s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be an array, string given, called in D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 570 and defined D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 7 D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: SELECT parent_id, lft, rgt, level FROM permission WHERE id = 41 [ RunTime:0.0008s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be an array, string given, called in D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 204 and defined D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 6 D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: SELECT rgt, lft, level FROM permission WHERE id = 41 [ RunTime:0.0007s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::query() must be an array, string given, called in D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 222 and defined D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 10 D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: UPDATE permission SET rgt = rgt + 2, lft = IF(lft >= 50, lft + 2, lft) WHERE rgt >= 50 [ RunTime:0.0158s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::insert() must be an array, string given, called in D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 230 and defined D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 33 行.
+SQL: INSERT INTO permission SET name='属性管理',url='Attribute/index',parent_id='41',intro='',status='1',sort='20',lft='50',rgt='51',level='2' [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000375s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000875s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001979s ]
+
+[ 2016-05-28T15:26:27+08:00 ] 127.0.0.1 /Permission/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002719s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003239s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with that of Think\Model::add() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with that of Think\Model::save() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0059s ]
+SQL: SELECT `id`,`name`,`parent_id`,`intro`,`status`,`sort`,`url`,`level` FROM `permission` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000412s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000785s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001735s ]
+
+[ 2016-05-28T15:26:50+08:00 ] 127.0.0.1 /Permission/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002602s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with that of Think\Model::add() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with that of Think\Model::save() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`name`,`parent_id` FROM `permission` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000611s ]
+NOTIC: [2] mb_substr() expects parameter 3 to be long, string given D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 29 行.
+NOTIC: [8] Undefined variable: url D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 35 行.
+NOTIC: [8] Undefined variable: parent_id D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 41 行.
+NOTIC: [8] Undefined variable: intro D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 49 行.
+NOTIC: [8] Undefined variable: id D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2016-05-28T15:27:03+08:00 ] 127.0.0.1 /Permission/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001634s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001909s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with that of Think\Model::add() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with that of Think\Model::save() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0049s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be an array, string given, called in D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 570 and defined D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 7 D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: SELECT parent_id, lft, rgt, level FROM permission WHERE id = 41 [ RunTime:0.0006s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be an array, string given, called in D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 204 and defined D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 6 D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: SELECT rgt, lft, level FROM permission WHERE id = 41 [ RunTime:0.0005s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::query() must be an array, string given, called in D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 222 and defined D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 10 D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: UPDATE permission SET rgt = rgt + 2, lft = IF(lft >= 52, lft + 2, lft) WHERE rgt >= 52 [ RunTime:0.0010s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::insert() must be an array, string given, called in D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 230 and defined D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 33 行.
+SQL: INSERT INTO permission SET name='送货方式',url='Delivery/index',parent_id='41',intro='',status='1',sort='20',lft='52',rgt='53',level='2' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000542s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2016-05-28T15:27:04+08:00 ] 127.0.0.1 /Permission/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002058s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002419s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with that of Think\Model::add() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with that of Think\Model::save() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0059s ]
+SQL: SELECT `id`,`name`,`parent_id`,`intro`,`status`,`sort`,`url`,`level` FROM `permission` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000445s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000826s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2016-05-28T15:27:31+08:00 ] 127.0.0.1 /Permission/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002869s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003325s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with that of Think\Model::add() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with that of Think\Model::save() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0084s ]
+SQL: SELECT `id`,`name`,`parent_id` FROM `permission` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000486s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000885s ]
+NOTIC: [2] mb_substr() expects parameter 3 to be long, string given D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 16 行.
+NOTIC: [8] Undefined variable: name D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 29 行.
+NOTIC: [8] Undefined variable: url D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 35 行.
+NOTIC: [8] Undefined variable: parent_id D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 41 行.
+NOTIC: [8] Undefined variable: intro D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 49 行.
+NOTIC: [8] Undefined variable: id D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\de659b307c5c46a31191429c34e777e1.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001855s ]
+
+[ 2016-05-28T15:27:51+08:00 ] 127.0.0.1 /Permission/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002195s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002548s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with that of Think\Model::add() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with that of Think\Model::save() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0057s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be an array, string given, called in D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 570 and defined D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 7 D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: SELECT parent_id, lft, rgt, level FROM permission WHERE id = 41 [ RunTime:0.0006s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be an array, string given, called in D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 204 and defined D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 6 D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: SELECT rgt, lft, level FROM permission WHERE id = 41 [ RunTime:0.0005s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::query() must be an array, string given, called in D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 222 and defined D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 10 D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: UPDATE permission SET rgt = rgt + 2, lft = IF(lft >= 54, lft + 2, lft) WHERE rgt >= 54 [ RunTime:0.0010s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::insert() must be an array, string given, called in D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 230 and defined D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 33 行.
+SQL: INSERT INTO permission SET name='支付方式',url='PayType/index',parent_id='41',intro='',status='1',sort='20',lft='54',rgt='55',level='2' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000511s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2016-05-28T15:27:52+08:00 ] 127.0.0.1 /Permission/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001735s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002239s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002594s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with that of Think\Model::add() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with that of Think\Model::save() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`name`,`parent_id`,`intro`,`status`,`sort`,`url`,`level` FROM `permission` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000460s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000847s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2016-05-28T15:28:15+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002065s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002363s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000731s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001999s ]
+
+[ 2016-05-28T15:28:15+08:00 ] 127.0.0.1 /Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002151s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000548s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2016-05-28T15:28:15+08:00 ] 127.0.0.1 /Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001849s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003329s ]
+SQL: select id,`name`,`url`,`parent_id`,`level` from permission where  status=1 [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000455s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000769s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001418s ]
+
+[ 2016-05-28T15:28:15+08:00 ] 127.0.0.1 /Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002836s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003411s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000730s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001658s ]
+
+[ 2016-05-28T15:28:27+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001548s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001819s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000840s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 17 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 19 行.
+NOTIC: [8] Undefined variable: rows D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 50 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001834s ]
+
+[ 2016-05-28T15:29:49+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002328s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002699s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000485s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001351s ]
+
+[ 2016-05-28T15:29:49+08:00 ] 127.0.0.1 /Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001924s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2016-05-28T15:29:49+08:00 ] 127.0.0.1 /Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002202s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002771s ]
+SQL: select id,`name`,`url`,`parent_id`,`level` from permission where  status=1 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000439s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000732s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2016-05-28T15:29:49+08:00 ] 127.0.0.1 /Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004136s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004517s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000584s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001831s ]
+
+[ 2016-05-28T15:29:51+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002957s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003401s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 17 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 19 行.
+NOTIC: [8] Undefined variable: rows D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 52 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2016-05-28T15:30:14+08:00 ] 127.0.0.1 /Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002012s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000750s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002393s ]
+
+[ 2016-05-28T15:30:18+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001800s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002593s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002975s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000884s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 17 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 19 行.
+NOTIC: [8] Undefined variable: rows D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 52 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001959s ]
+
+[ 2016-05-28T15:34:27+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001919s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002111s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002403s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000634s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 21 行.
+NOTIC: [8] Undefined variable: rows D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 54 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001446s ]
+
+[ 2016-05-28T15:34:29+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002643s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003093s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000881s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 21 行.
+NOTIC: [8] Undefined variable: rows D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 54 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001868s ]
+
+[ 2016-05-28T15:48:41+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002117s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001800s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002058s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0063s ]
+SQL: SELECT oi.id,oi.sn,oi.pay_status,oi.order_status,oi.shipping_status,c.`status` as comment_status FROM order_info oi LEFT JOIN `comment` AS c ON oi.sn=c.order_sn   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+
+[ 2016-05-28T15:49:42+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002773s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003186s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0078s ]
+SQL: SELECT oi.id,oi.sn,oi.pay_status,oi.order_status,oi.shipping_status,c.`status` as comment_status FROM order_info oi LEFT JOIN `comment` AS c ON oi.sn=c.order_sn   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+
+[ 2016-05-28T15:51:01+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001971s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002263s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0062s ]
+SQL: SELECT oi.id,oi.sn,oi.pay_status,oi.order_status,oi.shipping_status,c.`status` as comment_status FROM order_info oi LEFT JOIN `comment` AS c ON oi.sn=c.order_sn   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+
+[ 2016-05-28T15:51:32+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002227s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002654s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0072s ]
+SQL: SELECT oi.id,oi.sn,oi.pay_status,oi.order_status,oi.shipping_status,c.`status` as comment_status FROM order_info oi LEFT JOIN `comment` AS c ON oi.sn=c.order_sn   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+
+[ 2016-05-28T15:51:55+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003106s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003599s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0068s ]
+SQL: SELECT oi.id,oi.sn,oi.pay_status,oi.order_status,oi.shipping_status,c.`status` as comment_status FROM order_info oi LEFT JOIN `comment` AS c ON oi.sn=c.order_sn   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0011s ]
+
+[ 2016-05-28T15:52:11+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002326s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002745s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0074s ]
+SQL: SELECT oi.id,oi.sn,oi.pay_status,oi.order_status,oi.shipping_status,c.`status` as comment_status FROM order_info oi LEFT JOIN `comment` AS c ON oi.sn=c.order_sn   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0009s ]
+
+[ 2016-05-28T15:52:36+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002412s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002779s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0070s ]
+SQL: SELECT oi.id,oi.sn,oi.pay_status,oi.order_status,oi.shipping_status,c.`status` as comment_status FROM order_info oi LEFT JOIN `comment` AS c ON oi.sn=c.order_sn   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+
+[ 2016-05-28T16:03:10+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001823s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002380s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002747s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0059s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0006s ]
+NOTIC: [8] Array to string conversion D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 12 行.
+NOTIC: [8] Array to string conversion D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0043s ]
+ERR: 1054:Unknown column 'order_id' in 'field list'
+ [ SQL语句 ] : SELECT `order_id`,`price` FROM `order_info_item` WHERE ( order_id in (Array,Array) ) 
+ERR: 1054:Unknown column 'order_id' in 'field list'
+ [ SQL语句 ] : SELECT `order_id`,`price` FROM `order_info_item` WHERE ( order_id in (Array,Array) ) 
+
+[ 2016-05-28T16:03:49+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002450s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002817s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'order_id' in 'field list'
+ [ SQL语句 ] : SELECT `order_id`,`price` FROM `order_info_item` WHERE ( order_id in (46,47) ) 
+ERR: 1054:Unknown column 'order_id' in 'field list'
+ [ SQL语句 ] : SELECT `order_id`,`price` FROM `order_info_item` WHERE ( order_id in (46,47) ) 
+
+[ 2016-05-28T16:04:30+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002221s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002588s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0076s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0059s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0008s ]
+
+[ 2016-05-28T16:04:47+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002132s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002486s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0057s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0006s ]
+
+[ 2016-05-28T16:05:01+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002936s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003323s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0061s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0058s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0007s ]
+
+[ 2016-05-28T16:05:40+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001762s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002005s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0054s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0007s ]
+
+[ 2016-05-28T16:06:21+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002462s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002814s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0061s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0043s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0006s ]
+
+[ 2016-05-28T16:06:41+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002954s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003543s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0061s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+
+[ 2016-05-28T16:07:20+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002856s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003141s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0049s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000343s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000681s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 21 行.
+NOTIC: [8] Undefined index: name D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 56 行.
+NOTIC: [8] Undefined index: goods_category_id D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 58 行.
+NOTIC: [8] Undefined index: brand_id D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 59 行.
+NOTIC: [8] Undefined index: supplier_id D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 60 行.
+NOTIC: [8] Undefined index: shop_price D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 61 行.
+NOTIC: [8] Undefined index: market_price D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 62 行.
+NOTIC: [8] Undefined index: stock D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 63 行.
+NOTIC: [8] Undefined index: is_on_sale D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 64 行.
+NOTIC: [8] Undefined index: goods_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 65 行.
+NOTIC: [8] Undefined index: keyword D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 66 行.
+NOTIC: [8] Undefined index: logo D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 67 行.
+NOTIC: [8] Undefined index: status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 69 行.
+NOTIC: [8] Undefined index: status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 70 行.
+NOTIC: [8] Undefined index: sort D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 71 行.
+NOTIC: [8] Undefined index: name D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 56 行.
+NOTIC: [8] Undefined index: goods_category_id D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 58 行.
+NOTIC: [8] Undefined index: brand_id D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 59 行.
+NOTIC: [8] Undefined index: supplier_id D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 60 行.
+NOTIC: [8] Undefined index: shop_price D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 61 行.
+NOTIC: [8] Undefined index: market_price D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 62 行.
+NOTIC: [8] Undefined index: stock D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 63 行.
+NOTIC: [8] Undefined index: is_on_sale D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 64 行.
+NOTIC: [8] Undefined index: goods_status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 65 行.
+NOTIC: [8] Undefined index: keyword D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 66 行.
+NOTIC: [8] Undefined index: logo D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 67 行.
+NOTIC: [8] Undefined index: status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 69 行.
+NOTIC: [8] Undefined index: status D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 70 行.
+NOTIC: [8] Undefined index: sort D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 71 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2016-05-28T16:07:21+08:00 ] 127.0.0.1 /Public/Admin/images/.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-05-28T16:09:26+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002239s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002604s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0059s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0046s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000394s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 21 行.
+NOTIC: [8] Undefined index: inputtime D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 57 行.
+NOTIC: [8] Undefined index: receiver D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 58 行.
+NOTIC: [8] Undefined index: inputtime D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 57 行.
+NOTIC: [8] Undefined index: receiver D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 58 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001403s ]
+
+[ 2016-05-28T16:10:07+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001543s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001935s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0058s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-05-28T16:10:33+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001463s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001851s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0067s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0068s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000462s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000832s ]
+
+[ 2016-05-28T16:10:45+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000988s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001256s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0060s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000434s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-05-28T16:12:06+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002162s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002513s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0073s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0060s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: inputtime D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 20 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 18 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: inputtime D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 18 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 18 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000441s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 21 行.
+NOTIC: [8] Undefined index: receiver D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 58 行.
+NOTIC: [8] Undefined index: receiver D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 58 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002161s ]
+
+[ 2016-05-28T16:15:10+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001824s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002180s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0055s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0047s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: inputtime D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 20 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 18 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: inputtime D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 18 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 18 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000627s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 21 行.
+NOTIC: [8] Undefined index: receiver D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 58 行.
+NOTIC: [8] Undefined index: receiver D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 58 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001573s ]
+
+[ 2016-05-28T16:15:33+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001793s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002195s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0043s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: inputtime D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: inputtime D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 21 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+NOTIC: [8] Undefined index: inputtime D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: inputtime D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 19 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000757s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 21 行.
+NOTIC: [8] Undefined index: receiver D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 58 行.
+NOTIC: [8] Undefined index: receiver D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 58 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+
+[ 2016-05-28T16:16:05+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001770s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002193s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status` FROM `order_info`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0070s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: orderss D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 16 行.
+
+[ 2016-05-28T16:16:25+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001654s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002062s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status`,`inputtime` FROM `order_info`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0057s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 20 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 20 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 20 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000890s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 21 行.
+NOTIC: [8] Undefined index: receiver D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 58 行.
+NOTIC: [8] Undefined index: receiver D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 58 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001613s ]
+
+[ 2016-05-28T16:16:36+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001611s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001932s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status`,`inputtime` FROM `order_info`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0054s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0006s ]
+
+[ 2016-05-28T16:17:11+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001680s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002020s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status`,`inputtime` FROM `order_info`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0044s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 20 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 20 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 20 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+
+[ 2016-05-28T16:17:21+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002063s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001389s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001736s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0069s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status`,`inputtime` FROM `order_info`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0060s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+
+[ 2016-05-28T16:17:53+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002272s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001894s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002265s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0071s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status`,`inputtime` FROM `order_info`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0059s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+
+[ 2016-05-28T16:18:04+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001408s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001735s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0055s ]
+SQL: SELECT `id`,`sn`,`pay_status`,`order_status`,`shipping_status`,`inputtime` FROM `order_info`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0054s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 21 行.
+NOTIC: [8] Undefined index: receiver D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 58 行.
+NOTIC: [8] Undefined index: receiver D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 58 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001404s ]
+
+[ 2016-05-28T16:18:25+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001505s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001847s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`sn`,`receiver`,`pay_status`,`order_status`,`shipping_status`,`inputtime` FROM `order_info`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0050s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 21 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2016-05-28T16:22:29+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001997s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001943s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002392s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0083s ]
+SQL: SELECT `id`,`sn`,`receiver`,`pay_status`,`order_status`,`shipping_status`,`inputtime` FROM `order_info`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0067s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000479s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000866s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 21 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002503s ]
+
+[ 2016-05-28T16:22:55+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001076s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `order_info` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000966s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2016-05-28T16:24:47+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001352s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001596s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `order_info` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000435s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000706s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2016-05-28T16:25:28+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001028s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `order_info` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000405s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000661s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001541s ]
+
+[ 2016-05-28T16:26:48+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001408s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001711s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `order_info` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000651s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001978s ]
+
+[ 2016-05-28T16:27:16+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002398s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002779s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `order_info` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000518s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000858s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002426s ]
+
+[ 2016-05-28T16:27:39+08:00 ] 127.0.0.1 /OrderInfo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001255s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001550s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000435s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000693s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001476s ]
+
+[ 2016-05-28T16:28:15+08:00 ] 127.0.0.1 /OrderInfo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002054s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001036s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000643s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2016-05-28T16:31:28+08:00 ] 127.0.0.1 /OrderInfo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001335s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001593s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000409s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000677s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2016-05-28T16:32:58+08:00 ] 127.0.0.1 /OrderInfo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001380s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001711s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000526s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000871s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002175s ]
+
+[ 2016-05-28T16:33:18+08:00 ] 127.0.0.1 /OrderInfo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001544s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001897s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000391s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000644s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2016-05-28T16:33:58+08:00 ] 127.0.0.1 /OrderInfo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001804s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001393s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001668s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000668s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2016-05-28T16:34:36+08:00 ] 127.0.0.1 /OrderInfo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001789s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002038s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000716s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2016-05-28T16:34:48+08:00 ] 127.0.0.1 /OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001632s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001899s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`sn`,`receiver`,`pay_status`,`order_status`,`shipping_status`,`inputtime` FROM `order_info`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0056s ]
+SQL: SELECT `order_info_id`,`price` FROM `order_info_item` WHERE ( order_info_id in (46,47) )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+NOTIC: [8] Undefined index: money D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 21 行.
+NOTIC: [8] Undefined variable: pageHtml D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\941f73ad7c648e4b8b63762ccd9bf14f.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001708s ]
+
+[ 2016-05-28T16:34:50+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001846s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002094s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `order_info` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000409s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000737s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001441s ]
+
+[ 2016-05-28T16:36:15+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002291s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002318s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002707s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `order_info` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2016-05-28T16:38:26+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002166s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002516s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `order_info` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+NOTIC: [2] mb_substr() expects parameter 3 to be long, string given D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\96bf1a43f8f32cdd47fd2f333c46bea2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2016-05-28T16:38:43+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002225s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002564s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `order_info` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000544s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000968s ]
+NOTIC: [2] mb_substr() expects parameter 3 to be long, string given D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\96bf1a43f8f32cdd47fd2f333c46bea2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001870s ]
+
+[ 2016-05-28T16:39:35+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002138s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002476s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `order_info` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000622s ]
+NOTIC: [2] mb_substr() expects parameter 3 to be long, string given D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\96bf1a43f8f32cdd47fd2f333c46bea2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001637s ]
+
+[ 2016-05-28T16:40:41+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001761s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002015s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `order_info` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000669s ]
+NOTIC: [2] mb_substr() expects parameter 3 to be long, string given D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\96bf1a43f8f32cdd47fd2f333c46bea2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001455s ]
+
+[ 2016-05-28T16:41:20+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002487s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002838s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `order_info` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000369s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000657s ]
+NOTIC: [2] mb_substr() expects parameter 3 to be long, string given D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\96bf1a43f8f32cdd47fd2f333c46bea2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2016-05-28T17:55:26+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002376s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002683s ]
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `order_info` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000410s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000705s ]
+NOTIC: [2] mb_substr() expects parameter 3 to be long, string given D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\96bf1a43f8f32cdd47fd2f333c46bea2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002242s ]
+
+[ 2016-05-28T18:01:44+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001801s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002054s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `order_info` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0123s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '46 )' at line 1
+ [ SQL语句 ] : SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id 46 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '46 )' at line 1
+ [ SQL语句 ] : SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id 46 ) 
+
+[ 2016-05-28T18:01:57+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001659s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001907s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `order_info` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0045s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0006s ]
+
+[ 2016-05-28T18:05:08+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001495s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001702s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0045s ]
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  WHERE `id` = '46' LIMIT 1  
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  WHERE `id` = '46' LIMIT 1  
+
+[ 2016-05-28T18:05:43+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001636s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001829s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0043s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0033s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Undefined index: sn D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\96bf1a43f8f32cdd47fd2f333c46bea2.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2016-05-28T18:06:29+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002295s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0043s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0035s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000525s ]
+NOTIC: [8] Undefined variable: sn D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\96bf1a43f8f32cdd47fd2f333c46bea2.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2016-05-28T18:06:55+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001774s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002047s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0044s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0041s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8] Undefined variable: sn D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\96bf1a43f8f32cdd47fd2f333c46bea2.php 第 29 行.
+NOTIC: [8] Undefined variable: sn D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\96bf1a43f8f32cdd47fd2f333c46bea2.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2016-05-28T18:07:36+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001718s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002009s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0043s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0034s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0005s ]
+
+[ 2016-05-28T18:07:57+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001542s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001790s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0042s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0042s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0005s ]
+
+[ 2016-05-28T18:08:22+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001363s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001651s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0041s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0035s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] Undefined variable: sn D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\96bf1a43f8f32cdd47fd2f333c46bea2.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2016-05-28T18:08:38+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001219s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001501s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0041s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0036s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2016-05-28T18:09:13+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001382s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001593s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0048s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0034s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000577s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2016-05-28T18:09:30+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001385s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001599s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0046s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0032s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-05-28T18:09:47+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001515s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001719s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0044s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0035s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-05-28T18:10:40+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001271s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001493s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0043s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0038s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000544s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001325s ]
+
+[ 2016-05-28T18:12:22+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001693s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001919s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0042s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0035s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000511s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2016-05-28T18:13:39+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001600s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001850s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0041s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0037s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2016-05-28T18:19:48+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001491s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001723s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0041s ]
+NOTIC: [8] Use of undefined constant UID - assumed 'UID' D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 36 行.
+ERR: 1054:Unknown column 'a.is_default' in 'field list'
+ [ SQL语句 ] : SELECT a.id,a.`receiver`,a.`detail_address`,a.`tel`,a.`is_default`,province.`name` AS province_name,city.`name` AS city_name,`area`.`name` AS area_name FROM order_info a INNER JOIN region  AS province ON a.`province_id`=province.id INNER JOIN region AS city ON a.`city_id`=city.id LEFT JOIN  region AS `area` ON a.`area_id`=`area`.id  WHERE `member_id` = 'UID' 
+ERR: 1054:Unknown column 'a.is_default' in 'field list'
+ [ SQL语句 ] : SELECT a.id,a.`receiver`,a.`detail_address`,a.`tel`,a.`is_default`,province.`name` AS province_name,city.`name` AS city_name,`area`.`name` AS area_name FROM order_info a INNER JOIN region  AS province ON a.`province_id`=province.id INNER JOIN region AS city ON a.`city_id`=city.id LEFT JOIN  region AS `area` ON a.`area_id`=`area`.id  WHERE `member_id` = 'UID' 
+
+[ 2016-05-28T18:20:02+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001431s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001725s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0046s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0738s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000513s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000880s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001556s ]
+
+[ 2016-05-28T18:22:56+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001455s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001670s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0044s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0036s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined index: name D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\96bf1a43f8f32cdd47fd2f333c46bea2.php 第 77 行.
+NOTIC: [8] Undefined index: logo D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\96bf1a43f8f32cdd47fd2f333c46bea2.php 第 78 行.
+NOTIC: [8] Undefined index: shop_price D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\96bf1a43f8f32cdd47fd2f333c46bea2.php 第 79 行.
+NOTIC: [8] Undefined index: num D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\96bf1a43f8f32cdd47fd2f333c46bea2.php 第 80 行.
+NOTIC: [8] Undefined index: price D:\wamp\WAMP\www\shop\www.19890407.com\Runtime\Cache\Admin\96bf1a43f8f32cdd47fd2f333c46bea2.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001325s ]
+
+[ 2016-05-28T18:23:19+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001361s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001576s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0040s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0035s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0004s ]
+
+[ 2016-05-28T18:23:55+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001364s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001591s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0040s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0039s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-05-28T18:24:28+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001758s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001993s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0041s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0040s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2016-05-28T18:24:55+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001398s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001603s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0043s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0036s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2016-05-28T18:25:59+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001885s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002159s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0040s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0038s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2016-05-28T18:26:17+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001091s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001291s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0042s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0038s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2016-05-28T18:26:27+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000840s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001052s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0046s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0034s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2016-05-28T18:27:49+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001198s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001462s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0049s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0041s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000496s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2016-05-28T18:28:17+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001609s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001919s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0045s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0050s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000686s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2016-05-28T18:29:09+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001008s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001219s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0041s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0037s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2016-05-28T18:29:48+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001165s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001454s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0055s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0037s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2016-05-28T18:30:14+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001273s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001525s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0041s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0035s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2016-05-28T18:30:26+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000987s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001223s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0053s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0036s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2016-05-28T18:31:54+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001646s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001924s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0050s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0034s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2016-05-28T18:32:40+08:00 ] 127.0.0.1 /OrderInfo/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001192s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001434s ]
+NOTIC: [2048] Declaration of Admin\Model\OrderInfoModel::getList() should be compatible with that of Admin\Model\BaseModel::getList() D:\wamp\WAMP\www\shop\www.19890407.com\Application\Admin\Model\OrderInfoModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0042s ]
+SQL: SELECT oi.*,m.username FROM order_info oi INNER JOIN member as m on m.id=oi.member_id  LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0040s ]
+SQL: SELECT `order_info_id`,`goods_id`,`name`,`shop_price`,`num`,`price`,`logo` FROM `order_info_item` WHERE ( order_info_id = 46 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000489s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+

@@ -1,0 +1,27 @@
+[ 2016-05-07T17:39:42+08:00 ] 127.0.0.1 /shop/www.19890407.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+ERR: _NOT_SUPPERT_:redis
+
+[ 2016-05-07T17:43:02+08:00 ] 127.0.0.1 /shop/www.19890407.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+ERR: _NOT_SUPPERT_:redis
+
+[ 2016-05-07T17:43:04+08:00 ] 127.0.0.1 /shop/www.19890407.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+ERR: _NOT_SUPPERT_:redis
+

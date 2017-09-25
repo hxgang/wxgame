@@ -1,0 +1,60 @@
+[ 2015-11-05T11:15:18+08:00 ] 127.0.0.1 /Supplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+ERR: 无法加载模块:Supplier
+
+[ 2015-11-05T11:15:20+08:00 ] 127.0.0.1 /Brand/edit/id/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+ERR: 无法加载模块:Brand
+
+[ 2015-11-05T11:16:30+08:00 ] 127.0.0.1 /Brand/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Brand
+
+[ 2015-11-05T11:16:30+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-11-05T11:17:08+08:00 ] 127.0.0.1 /Gii/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Gii
+
+[ 2015-11-05T11:18:45+08:00 ] 127.0.0.1 /Supplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Supplier
+
+[ 2015-11-05T12:30:19+08:00 ] 127.0.0.1 /Supplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Supplier
+
+[ 2015-11-05T11:41:14+08:00 ] 192.168.0.222 /Brand/index
+ERR: 无法加载模块:Brand
+
+[ 2015-11-05T11:41:14+08:00 ] 192.168.0.222 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2015-11-05T11:41:28+08:00 ] 192.168.0.222 /Supplier
+ERR: 无法加载模块:Supplier
+
+[ 2015-11-05T11:41:33+08:00 ] 192.168.0.222 /Supplier/index
+ERR: 无法加载模块:Supplier
+
+[ 2015-11-05T11:43:08+08:00 ] 192.168.0.222 /index.php/Supplier/index
+ERR: 无法加载模块:Supplier
+
+[ 2015-11-05T11:43:16+08:00 ] 192.168.0.222 /index.php/Supplier/index
+ERR: 无法加载模块:Supplier
+

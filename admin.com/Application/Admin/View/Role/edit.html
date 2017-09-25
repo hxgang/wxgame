@@ -1,0 +1,100 @@
+<extend name="Common:edit"/>
+<block name="css">
+    <link href="__ZTREE__/css/zTreeStyle/zTreeStyle.css" rel="stylesheet" type="text/css"/>
+</block>
+<block name="form">
+    <form method="post" action="{:U()}">
+        <table cellspacing="1" cellpadding="3" width="100%">
+            <tr>
+                <td class="label">角色名称</td>
+                <td>
+                    <input type="text" name="name" maxlength="60" value="{$name}"> <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">角色权限</td>
+                <td>
+                    <div id="permission_id"></div>
+                    <ul id="treeDemo" class="ztree"></ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">角色描述</td>
+                <td>
+                    <textarea name="intro" cols="60" rows="4">{$intro}</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">状态</td>
+                <td>
+                    <input type="radio" name="status" class="status" value="1" />是
+                    <input type="radio" name="status" class="status" value="0" />否
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">排序</td>
+                <td>
+                    <input type="text" name="sort" maxlength="60" value="{$sort|default=20}"> <span
+                        class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><br/>
+                    <input type="hidden" name="id" value="{$id}"/>
+                    <input type="submit" class="button ajax-post_1" value=" 确定 "/>
+                    <input type="reset" class="button" value=" 重置 "/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</block>
+<block name="js">
+    <script type="text/javascript" src="__ZTREE__/js/jquery.ztree.core-3.5.js"></script>
+    <script type="text/javascript" src="__ZTREE__/js/jquery.ztree.excheck-3.5.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            //>>1.树的设置
+            var setting = {
+                check: {
+                    enable: true  //允许被选中
+                },
+                data: {
+                    simpleData: {
+                        enable: true,
+                        pIdKey: "parent_id",
+                    }
+                },
+                callback: {
+                    onCheck:function(event,treeId,treeNode){
+                        //找到每个点击的节点。
+                        var nodes=treeObj.getCheckedNodes(true);
+                        //选中一个节点，就增加一个对应的隐藏域
+                      $('#permission_id').empty();
+                        $(nodes).each(function(){
+                            $('#permission_id').append("<input type='hidden' name='permission_ids[]' value='"+this.id+"'>");
+                        });
+                    }
+                }
+            };
+
+            //>>2.(这里是json形式的数组)，准备树中需要的数据
+            var zNodes = {$nodes};
+            //>>3.将id为treeDemo的ul变成一个树，返回值是该对象。
+            var treeObj = $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+            //>>4.展开节点
+            treeObj.expandAll(true);
+            /*>>5.-----------只有是编辑回显的时候，才需要将节点选中，并且父分类那里有值-----*/
+            <notempty name='id'>
+            //编辑时:
+            var permission_ids = {$permission_ids};
+            $(permission_ids).each(function(){
+                //根据每一个节点的属性id,找到每一个权限然后打钩
+                var node = treeObj.getNodeByParam('id',this);
+                treeObj.checkNode(node,true,false,true);  //node:需要选中的节点, 第一个true: 表示选中,  第二个false:表示不关联, 第三true: 表示选中时激活事件
+            });
+            </notempty>
+        });
+    </script>
+</block>

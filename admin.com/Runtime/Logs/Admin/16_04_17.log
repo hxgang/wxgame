@@ -1,0 +1,1977 @@
+[ 2016-04-17T11:00:46+08:00 ] 127.0.0.1 /Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.255014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.041002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.031002s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.033002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:00:48+08:00 ] 127.0.0.1 /Verify/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.192011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:00:48+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-17T11:01:06+08:00 ] 127.0.0.1 /Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\AdminModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\AdminModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1780s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'root' LIMIT 1   [ RunTime:0.0780s ]
+SQL: select  distinct  id,url from permission  where id in
+        (select  distinct rp.permission_id from  admin_role as ar  join role_permission as rp on ar.role_id = rp.role_id  where ar.admin_id = 5) [ RunTime:0.2470s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.394022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.394022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-17T11:01:07+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:01:07+08:00 ] 127.0.0.1 /Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:01:07+08:00 ] 127.0.0.1 /Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:01:07+08:00 ] 127.0.0.1 /Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: select id,`name`,`url`,`parent_id`,`level` from permission where  status=1 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:01:32+08:00 ] 127.0.0.1 /GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::getList() should be compatible with Admin\Model\BaseModel::getList($field = 'id,name,pa...') E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0970s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:01:38+08:00 ] 127.0.0.1 /GoodsType/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.1070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods_type` LIMIT 1   [ RunTime:0.1920s ]
+SQL: SELECT * FROM `goods_type` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-17T11:01:44+08:00 ] 127.0.0.1 /GoodsType/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:01:50+08:00 ] 127.0.0.1 /Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.7180s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::getList() should be compatible with Admin\Model\BaseModel::getList($field = 'id,name,pa...') E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 66 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 66 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `brand` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `supplier` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `member_level` [ RunTime:0.0710s ]
+SQL: SELECT `id`,`name` FROM `member_level` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods_type` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 57 行.
+NOTIC: [8] Undefined variable: brand_id E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 77 行.
+NOTIC: [8] Undefined variable: supplier_id E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 84 行.
+NOTIC: [8] Undefined variable: shop_price E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 91 行.
+NOTIC: [8] Undefined variable: market_price E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 98 行.
+NOTIC: [8] Undefined variable: stock E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 105 行.
+NOTIC: [8] Undefined variable: keyword E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 130 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 138 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 140 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 142 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 167 行.
+NOTIC: [8] Undefined variable: prices E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 176 行.
+NOTIC: [8] Undefined variable: prices E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 176 行.
+NOTIC: [8] Undefined variable: prices E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 176 行.
+NOTIC: [8] Undefined variable: goods_type_id E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 186 行.
+NOTIC: [8] Undefined variable: albums E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 202 行.
+NOTIC: [8] Undefined variable: articles E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 227 行.
+NOTIC: [8] Undefined variable: articles E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 230 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 238 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-17T11:01:58+08:00 ] 127.0.0.1 /Goods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0312s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:02:14+08:00 ] 127.0.0.1 /Attribute/getByGoodsTypeId.html?goods_type_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0468s ]
+SQL: SELECT `id`,`name`,`attribute_type`,`attribute_input_type`,`option_values` FROM `attribute` WHERE `goods_type_id` = 1 AND `status` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+
+[ 2016-04-17T11:06:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:06:30+08:00 ] 127.0.0.1 /Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-17T11:06:30+08:00 ] 127.0.0.1 /Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015600s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-17T11:06:30+08:00 ] 127.0.0.1 /Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select id,`name`,`url`,`parent_id`,`level` from permission where  status=1 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:06:38+08:00 ] 127.0.0.1 /attribute/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `attribute` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `attribute` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:06:45+08:00 ] 127.0.0.1 /Attribute/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 29 行.
+NOTIC: [8] Undefined variable: goods_type_id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 35 行.
+NOTIC: [8] Undefined variable: option_values E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 59 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 66 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:08:04+08:00 ] 127.0.0.1 /Attribute/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 29 行.
+NOTIC: [8] Undefined variable: goods_type_id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 35 行.
+NOTIC: [8] Undefined variable: option_values E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 59 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 66 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-17T11:12:34+08:00 ] 127.0.0.1 /Attribute/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 29 行.
+NOTIC: [8] Undefined variable: goods_type_id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 35 行.
+NOTIC: [8] Undefined variable: option_values E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 59 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 66 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:15:03+08:00 ] 127.0.0.1 /Attribute/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 29 行.
+NOTIC: [8] Undefined variable: goods_type_id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 35 行.
+NOTIC: [8] Undefined variable: option_values E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 59 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 66 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-17T11:15:38+08:00 ] 127.0.0.1 /Attribute/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 29 行.
+NOTIC: [8] Undefined variable: goods_type_id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 35 行.
+NOTIC: [8] Undefined variable: option_values E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 59 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 66 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:15:58+08:00 ] 127.0.0.1 /Attribute/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 29 行.
+NOTIC: [8] Undefined variable: goods_type_id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 35 行.
+NOTIC: [8] Undefined variable: option_values E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 59 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 66 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:17:43+08:00 ] 127.0.0.1 /Attribute/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 29 行.
+NOTIC: [8] Undefined variable: goods_type_id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 35 行.
+NOTIC: [8] Undefined variable: option_values E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 59 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 66 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-04-17T11:18:10+08:00 ] 127.0.0.1 /Attribute/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 29 行.
+NOTIC: [8] Undefined variable: goods_type_id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 35 行.
+NOTIC: [8] Undefined variable: option_values E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 59 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 66 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:19:31+08:00 ] 127.0.0.1 /Attribute/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 29 行.
+NOTIC: [8] Undefined variable: goods_type_id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 35 行.
+NOTIC: [8] Undefined variable: option_values E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 59 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 66 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:24:23+08:00 ] 127.0.0.1 /attribute/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `attribute` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `attribute` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `goods_type` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-17T11:27:12+08:00 ] 127.0.0.1 /attribute/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `attribute` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `attribute` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods_type` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:29:04+08:00 ] 127.0.0.1 /attribute/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `attribute` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `attribute` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods_type` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:29:08+08:00 ] 127.0.0.1 /Attribute/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name` FROM `goods_type` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 29 行.
+NOTIC: [8] Undefined variable: goods_type_id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 35 行.
+NOTIC: [8] Undefined variable: option_values E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 59 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 66 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\9cbef25713ee098bb381999191e92893.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:39:13+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:39:13+08:00 ] 127.0.0.1 /Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:39:13+08:00 ] 127.0.0.1 /Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:39:13+08:00 ] 127.0.0.1 /Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.006000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.009000s ]
+SQL: select id,`name`,`url`,`parent_id`,`level` from permission where  status=1 [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:39:21+08:00 ] 127.0.0.1 /Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::getList() should be compatible with Admin\Model\BaseModel::getList($field = 'id,name,pa...') E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 66 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 66 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `brand` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `supplier` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `member_level` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name` FROM `member_level` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `goods_type` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 57 行.
+NOTIC: [8] Undefined variable: brand_id E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 77 行.
+NOTIC: [8] Undefined variable: supplier_id E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 84 行.
+NOTIC: [8] Undefined variable: shop_price E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 91 行.
+NOTIC: [8] Undefined variable: market_price E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 98 行.
+NOTIC: [8] Undefined variable: stock E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 105 行.
+NOTIC: [8] Undefined variable: keyword E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 130 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 138 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 140 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 142 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 167 行.
+NOTIC: [8] Undefined variable: prices E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 176 行.
+NOTIC: [8] Undefined variable: prices E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 176 行.
+NOTIC: [8] Undefined variable: prices E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 176 行.
+NOTIC: [8] Undefined variable: goods_type_id E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 186 行.
+NOTIC: [8] Undefined variable: albums E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 202 行.
+NOTIC: [8] Undefined variable: articles E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 227 行.
+NOTIC: [8] Undefined variable: articles E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 230 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 238 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-04-17T11:39:29+08:00 ] 127.0.0.1 /Attribute/getByGoodsTypeId.html?goods_type_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name`,`attribute_type`,`attribute_input_type`,`option_values` FROM `attribute` WHERE `goods_type_id` = 1 AND `status` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+
+[ 2016-04-17T11:39:31+08:00 ] 127.0.0.1 /Attribute/getByGoodsTypeId.html?goods_type_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name`,`attribute_type`,`attribute_input_type`,`option_values` FROM `attribute` WHERE `goods_type_id` = 2 AND `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+
+[ 2016-04-17T11:42:42+08:00 ] 127.0.0.1 /Attribute/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `attribute` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name` FROM `goods_type` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:50:49+08:00 ] 127.0.0.1 /GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::getList() should be compatible with Admin\Model\BaseModel::getList($field = 'id,name,pa...') E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:50:56+08:00 ] 127.0.0.1 /GoodsCategory/edit/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::getList() should be compatible with Admin\Model\BaseModel::getList($field = 'id,name,pa...') E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods_category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-17T11:51:03+08:00 ] 127.0.0.1 /GoodsCategory/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::getList() should be compatible with Admin\Model\BaseModel::getList($field = 'id,name,pa...') E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\d8c03987cc869db5e9e31c943fdadff1.php 第 29 行.
+NOTIC: [8] Undefined variable: parent_id E:\shop\www.19890407.com\Runtime\Cache\Admin\d8c03987cc869db5e9e31c943fdadff1.php 第 35 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\d8c03987cc869db5e9e31c943fdadff1.php 第 43 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\d8c03987cc869db5e9e31c943fdadff1.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:51:15+08:00 ] 127.0.0.1 /GoodsCategory/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::getList() should be compatible with Admin\Model\BaseModel::getList($field = 'id,name,pa...') E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0070s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in E:\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 570 and defined E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 7 E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: SELECT parent_id, lft, rgt, level FROM goods_category WHERE id = 20 [ RunTime:0.0010s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in E:\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 204 and defined E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 6 E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: SELECT rgt, lft, level FROM goods_category WHERE id = 20 [ RunTime:0.0000s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::query() must be of the type array, string given, called in E:\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 222 and defined E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 10 E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: UPDATE goods_category SET rgt = rgt + 2, lft = IF(lft >= 68, lft + 2, lft) WHERE rgt >= 68 [ RunTime:0.1690s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::insert() must be of the type array, string given, called in E:\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 230 and defined E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 33 行.
+SQL: INSERT INTO goods_category SET name='衣服',parent_id='20',intro='',status='1',sort='20',lft='68',rgt='69',level='2' [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:51:16+08:00 ] 127.0.0.1 /GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::getList() should be compatible with Admin\Model\BaseModel::getList($field = 'id,name,pa...') E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:51:27+08:00 ] 127.0.0.1 /GoodsCategory/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::getList() should be compatible with Admin\Model\BaseModel::getList($field = 'id,name,pa...') E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\d8c03987cc869db5e9e31c943fdadff1.php 第 29 行.
+NOTIC: [8] Undefined variable: parent_id E:\shop\www.19890407.com\Runtime\Cache\Admin\d8c03987cc869db5e9e31c943fdadff1.php 第 35 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\d8c03987cc869db5e9e31c943fdadff1.php 第 43 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\d8c03987cc869db5e9e31c943fdadff1.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:51:37+08:00 ] 127.0.0.1 /GoodsCategory/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::getList() should be compatible with Admin\Model\BaseModel::getList($field = 'id,name,pa...') E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0070s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in E:\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 570 and defined E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 7 E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: SELECT parent_id, lft, rgt, level FROM goods_category WHERE id = 43 [ RunTime:0.0010s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in E:\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 204 and defined E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 6 E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: SELECT rgt, lft, level FROM goods_category WHERE id = 43 [ RunTime:0.0010s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::query() must be of the type array, string given, called in E:\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 222 and defined E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 10 E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: UPDATE goods_category SET rgt = rgt + 2, lft = IF(lft >= 69, lft + 2, lft) WHERE rgt >= 69 [ RunTime:0.0010s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::insert() must be of the type array, string given, called in E:\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 230 and defined E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 33 行.
+SQL: INSERT INTO goods_category SET name='男装',parent_id='43',intro='',status='1',sort='20',lft='69',rgt='70',level='3' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-17T11:51:39+08:00 ] 127.0.0.1 /GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::getList() should be compatible with Admin\Model\BaseModel::getList($field = 'id,name,pa...') E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:51:40+08:00 ] 127.0.0.1 /GoodsCategory/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::getList() should be compatible with Admin\Model\BaseModel::getList($field = 'id,name,pa...') E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\d8c03987cc869db5e9e31c943fdadff1.php 第 29 行.
+NOTIC: [8] Undefined variable: parent_id E:\shop\www.19890407.com\Runtime\Cache\Admin\d8c03987cc869db5e9e31c943fdadff1.php 第 35 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\d8c03987cc869db5e9e31c943fdadff1.php 第 43 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\d8c03987cc869db5e9e31c943fdadff1.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:51:48+08:00 ] 127.0.0.1 /GoodsCategory/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::getList() should be compatible with Admin\Model\BaseModel::getList($field = 'id,name,pa...') E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.1950s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in E:\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 570 and defined E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 7 E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: SELECT parent_id, lft, rgt, level FROM goods_category WHERE id = 43 [ RunTime:0.0010s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in E:\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 204 and defined E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 6 E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: SELECT rgt, lft, level FROM goods_category WHERE id = 43 [ RunTime:0.0000s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::query() must be of the type array, string given, called in E:\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 222 and defined E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 10 E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 106 行.
+SQL: UPDATE goods_category SET rgt = rgt + 2, lft = IF(lft >= 71, lft + 2, lft) WHERE rgt >= 71 [ RunTime:0.0010s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::insert() must be of the type array, string given, called in E:\shop\www.19890407.com\Application\Admin\Service\NestedSetsService.class.php on line 230 and defined E:\shop\www.19890407.com\Application\Admin\Model\DbMysqlInterfaceImplModel.class.php 第 33 行.
+SQL: INSERT INTO goods_category SET name='女装',parent_id='43',intro='',status='1',sort='20',lft='71',rgt='72',level='3' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:51:49+08:00 ] 127.0.0.1 /GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::getList() should be compatible with Admin\Model\BaseModel::getList($field = 'id,name,pa...') E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2016-04-17T11:52:03+08:00 ] 127.0.0.1 /Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::getList() should be compatible with Admin\Model\BaseModel::getList($field = 'id,name,pa...') E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 66 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 66 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `brand` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `supplier` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `member_level` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name` FROM `member_level` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods_type` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 57 行.
+NOTIC: [8] Undefined variable: brand_id E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 77 行.
+NOTIC: [8] Undefined variable: supplier_id E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 84 行.
+NOTIC: [8] Undefined variable: shop_price E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 91 行.
+NOTIC: [8] Undefined variable: market_price E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 98 行.
+NOTIC: [8] Undefined variable: stock E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 105 行.
+NOTIC: [8] Undefined variable: keyword E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 130 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 138 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 140 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 142 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 167 行.
+NOTIC: [8] Undefined variable: prices E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 176 行.
+NOTIC: [8] Undefined variable: prices E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 176 行.
+NOTIC: [8] Undefined variable: prices E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 176 行.
+NOTIC: [8] Undefined variable: goods_type_id E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 186 行.
+NOTIC: [8] Undefined variable: albums E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 202 行.
+NOTIC: [8] Undefined variable: articles E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 227 行.
+NOTIC: [8] Undefined variable: articles E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 230 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 238 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:52:07+08:00 ] 127.0.0.1 /Goods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `brand` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `supplier` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:52:23+08:00 ] 127.0.0.1 /Brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `brand` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:52:39+08:00 ] 127.0.0.1 /Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\c59db4495616d6f62b5842af5c8f9312.php 第 29 行.
+NOTIC: [8] Undefined variable: url E:\shop\www.19890407.com\Runtime\Cache\Admin\c59db4495616d6f62b5842af5c8f9312.php 第 36 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c59db4495616d6f62b5842af5c8f9312.php 第 44 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c59db4495616d6f62b5842af5c8f9312.php 第 46 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c59db4495616d6f62b5842af5c8f9312.php 第 48 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c59db4495616d6f62b5842af5c8f9312.php 第 49 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\c59db4495616d6f62b5842af5c8f9312.php 第 57 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\c59db4495616d6f62b5842af5c8f9312.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:52:39+08:00 ] 127.0.0.1 /Brand/Uploads
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0080s ]
+ERR: 非法操作:Uploads
+
+[ 2016-04-17T11:52:41+08:00 ] 127.0.0.1 /Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `brand` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:54:01+08:00 ] 127.0.0.1 /Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\shop\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:54:04+08:00 ] 127.0.0.1 /Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0070s ]
+SQL: INSERT INTO `brand` (`name`,`url`,`logo`,`intro`,`status`,`sort`,`id`) VALUES ('妖精的口袋','www.taobao.com','brand/2016-04-17/571308d90a470.png','','1','20','0') [ RunTime:0.0000s ]
+
+[ 2016-04-17T11:54:06+08:00 ] 127.0.0.1 /Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `brand` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:55:08+08:00 ] 127.0.0.1 /Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::getList() should be compatible with Admin\Model\BaseModel::getList($field = 'id,name,pa...') E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 66 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 66 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsCategoryModel.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `brand` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `supplier` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `member_level` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name` FROM `member_level` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods_type` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 57 行.
+NOTIC: [8] Undefined variable: brand_id E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 77 行.
+NOTIC: [8] Undefined variable: supplier_id E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 84 行.
+NOTIC: [8] Undefined variable: shop_price E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 91 行.
+NOTIC: [8] Undefined variable: market_price E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 98 行.
+NOTIC: [8] Undefined variable: stock E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 105 行.
+NOTIC: [8] Undefined variable: keyword E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 130 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 138 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 140 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 142 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 167 行.
+NOTIC: [8] Undefined variable: prices E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 176 行.
+NOTIC: [8] Undefined variable: prices E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 176 行.
+NOTIC: [8] Undefined variable: prices E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 176 行.
+NOTIC: [8] Undefined variable: goods_type_id E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 186 行.
+NOTIC: [8] Undefined variable: albums E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 202 行.
+NOTIC: [8] Undefined variable: articles E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 227 行.
+NOTIC: [8] Undefined variable: articles E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 230 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\c07ff6a88335c11516cb9ad63b0c3b30.php 第 238 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:55:09+08:00 ] 127.0.0.1 /Goods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `brand` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `supplier` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-17T11:56:51+08:00 ] 127.0.0.1 /Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\shop\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:57:26+08:00 ] 127.0.0.1 /Goods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `brand` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `supplier` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:57:36+08:00 ] 127.0.0.1 /Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\shop\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:57:44+08:00 ] 127.0.0.1 /Attribute/getByGoodsTypeId.html?goods_type_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name`,`attribute_type`,`attribute_input_type`,`option_values` FROM `attribute` WHERE `goods_type_id` = 2 AND `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+
+[ 2016-04-17T11:58:07+08:00 ] 127.0.0.1 /Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: INSERT INTO `goods` (`name`,`goods_category_id`,`brand_id`,`supplier_id`,`shop_price`,`market_price`,`stock`,`is_on_sale`,`goods_status`,`keyword`,`logo`,`status`,`sort`,`goods_type_id`,`id`) VALUES ('连衣裙','45','6','13','123','132','12','1','2','好看','goods/2016-04-17/57130983b78f4.png','1','10','2','0') [ RunTime:0.4370s ]
+SQL: UPDATE `goods` SET `sn`='2016041700000035' WHERE ( id=35 ) [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `goods_intro` [ RunTime:0.1210s ]
+SQL: DELETE FROM `goods_intro` WHERE ( goods_id=35 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `goods_intro` (`goods_id`,`intro`) VALUES ('35','<p>酷酷的呢<strong><img src=\"http://img.baidu.com/hi/jx2/j_0011.gif\"/></strong></p>') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `goods_album` [ RunTime:0.0070s ]
+SQL: INSERT INTO `goods_album` (`goods_id`,`path`) VALUES ('35','goods/2016-04-17/571309b06b090.JPG') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: article_id E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 59 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 117 行.
+SQL: SHOW COLUMNS FROM `goods_member_price` [ RunTime:0.0070s ]
+SQL: DELETE FROM `goods_member_price` WHERE `goods_id` = 35 [ RunTime:0.0000s ]
+SQL: INSERT INTO `goods_member_price` (`goods_id`,`member_level_id`,`price`) VALUES ('35','1','123'),('35','2','120'),('35','3','110') [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-17T11:58:08+08:00 ] 127.0.0.1 /Goods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.004001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `brand` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `supplier` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T11:58:12+08:00 ] 127.0.0.1 /Goods/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 10,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `brand` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.2020s ]
+SQL: SELECT * FROM `supplier` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-04-17T11:58:27+08:00 ] 127.0.0.1 /Goods/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\shop\www.19890407.com\Application\Admin\Model\GoodsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> '-1' ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `brand` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `supplier` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-17T13:11:11+08:00 ] 127.0.0.1 /Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.063004s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.064004s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.3200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name E:\shop\www.19890407.com\Runtime\Cache\Admin\c59db4495616d6f62b5842af5c8f9312.php 第 29 行.
+NOTIC: [8] Undefined variable: url E:\shop\www.19890407.com\Runtime\Cache\Admin\c59db4495616d6f62b5842af5c8f9312.php 第 36 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c59db4495616d6f62b5842af5c8f9312.php 第 44 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c59db4495616d6f62b5842af5c8f9312.php 第 46 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c59db4495616d6f62b5842af5c8f9312.php 第 48 行.
+NOTIC: [8] Undefined variable: logo E:\shop\www.19890407.com\Runtime\Cache\Admin\c59db4495616d6f62b5842af5c8f9312.php 第 49 行.
+NOTIC: [8] Undefined variable: intro E:\shop\www.19890407.com\Runtime\Cache\Admin\c59db4495616d6f62b5842af5c8f9312.php 第 57 行.
+NOTIC: [8] Undefined variable: id E:\shop\www.19890407.com\Runtime\Cache\Admin\c59db4495616d6f62b5842af5c8f9312.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.118064s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.118064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-17T13:11:19+08:00 ] 127.0.0.1 /Brand/Uploads
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run \Admin\Behavior\CheckPermissionBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0070s ]
+ERR: 非法操作:Uploads
+

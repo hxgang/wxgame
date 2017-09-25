@@ -1,0 +1,21 @@
+[ 2015-10-31T17:48:15+08:00 ] 127.0.0.1 /Supplier/getJson.html?value=%E5%B9%BF%E5%B7%9E%E4%BE%9B%E8%B4%A7%E5%95%861
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined index: id E:\shop\www.19890407.com\Application\Admin\Controller\SupplierController.class.php 第 102 行.
+NOTIC: [8] Undefined index: fildName E:\shop\www.19890407.com\Application\Admin\Controller\SupplierController.class.php 第 103 行.
+NOTIC: [8] Undefined index: value E:\shop\www.19890407.com\Application\Admin\Controller\SupplierController.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0070s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updata supplier set = where id=' at line 1
+ [ SQL语句 ] : updata supplier set = where id=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updata supplier set = where id=' at line 1
+ [ SQL语句 ] : updata supplier set = where id=
+
+[ 2015-10-31T18:37:27+08:00 ] 127.0.0.1 /Supplier/index/p/2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updata supplier set = where id=' at line 1
+ [ SQL语句 ] : updata supplier set = where id=
+
+[ 2015-10-31T18:40:55+08:00 ] 127.0.0.1 /Supplier/index/p/2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= where id=' at line 1
+ [ SQL语句 ] : update supplier set = where id=
+

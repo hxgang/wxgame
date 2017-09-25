@@ -1,0 +1,65 @@
+<div class="tpl-portlet-components">
+    <div class="portlet-title">
+        <div class="caption font-green bold">
+            <span class="am-icon-code"></span>支付方式
+        </div>
+    </div>
+    <div class="tpl-block">
+        <div class="am-g">
+            <div class="am-u-sm-12 am-u-md-6">
+                <div class="am-btn-toolbar">
+                    <div class="am-btn-group am-btn-group-xs">
+                        <button type="button" class="am-btn am-btn-default am-btn-success"><span class="am-icon-plus"></span> 新增</button>
+                       </div>
+                </div>
+            </div>
+            <div class="am-u-sm-12 am-u-md-3">
+                <div class="am-input-group am-input-group-sm">
+                    <input type="text" class="am-form-field">
+                    <span class="am-input-group-btn">
+                    <button class="am-btn  am-btn-default am-btn-success tpl-am-btn-success am-icon-search" type="button"></button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="am-g">
+            <div class="am-u-sm-12">
+                <form class="am-form">
+                    <table class="am-table am-table-striped am-table-hover table-main">
+                        <thead>
+                        <tr>
+                            <th  width="10%"><input type="checkbox"></th>
+                            <th width="10%">名称</th>
+                            <th width="30%">描述</th>
+                            <th width="10%">状态</th>
+                            <th width="10%">排序</th>
+                            <th width="10%">默认</th>
+                            <th width="10%">操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="data.list" id="row">
+                            <tr>
+                                <td ><input type="checkbox" name="id[]" class="id" value="{$row.id}"/></td>
+                                <td>{$row.name}</td>
+                                <td>{$row.intro}</td>
+                                <td><a class="ajax-get" href="{:U('changeStatus',array('id'=>$row['id'],'status'=>1-$row['status']))}"><img src="__IMG__/{$row.status}.gif" alt=""/></a></td>
+                                <td >{$row.sort}</td>
+                                <td >{$row.is_default}</td>
+                                <td >
+                                    <a href="{:U('edit',array('id'=>$row['id']))}" title="编辑">编辑</a> |
+                                    <a class="ajax-get" href="{:U('changeStatus',array('id'=>$row['id']))}" title="移除">移除</a>
+                                </td>
+                            </tr>
+                        </volist>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="am-cf">
+        {$data.page}
+    </div>
+    <div class="tpl-alert"></div>
+</div>

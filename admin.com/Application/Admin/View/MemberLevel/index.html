@@ -1,0 +1,38 @@
+<extend name="Common:index"/>
+<block name="center">
+    <div class="list-div" id="listDiv">
+        <input type="button" class="button ajax-post" url="{:U('changeStatus')}" value="删除选中"/>
+        <table cellpadding="3" cellspacing="1">
+            <tr>
+                <th width="50px">序号<input type="checkbox" class="all"/></th>
+                <th>级别名称</th>
+                <th>经验值下限</th>
+                <th>经验值上限</th>
+                <th>折扣率</th>
+                <th>状态</th>
+                <th>排序</th>
+                <th>操作</th>
+            </tr>
+            <volist name="rows" id="row">
+                <tr>
+                    <td align="center"><input type="checkbox" name="id[]" class="id" value="{$row.id}"/></td>
+                    <td align='center'>{$row.name}</td>
+                    <td align='center'>{$row.bottom}</td>
+                    <td align='center'>{$row.top}</td>
+                    <td align='center'>{$row.discount}</td>
+                    <td align="center"><a class="ajax-get"
+                                          href="{:U('changeStatus',array('id'=>$row['id'],'status'=>1-$row['status']))}"><img
+                            src="__IMG__/{$row.status}.gif" alt=""/></a></td>
+                    <td align='center'>{$row.sort}</td>
+                    <td align="center">
+                        <a href="{:U('edit',array('id'=>$row['id']))}" title="编辑">编辑</a> |
+                        <a class="ajax-get" href="{:U('changeStatus',array('id'=>$row['id']))}" title="移除">移除</a>
+                    </td>
+                </tr>
+            </volist>
+        </table>
+        <div class="page">
+            {$pageHtml}
+        </div>
+    </div>
+</block>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <title>"福"气到家</title>
+    <link href="/Public/plugin/bootstrap.min.css" rel="stylesheet">
+    <link href="/Public/VOne/css/style.css" rel="stylesheet">
+    <link href="/Public/VOne/css/shop.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="row goods">
+        <div class="nav">请选择开光佛品</div>
+        <div id="goods_info" class="col-xs-12">
+            <dl>
+                <dt class="col-xs-5">
+                    <!-- <img src='/Public/VOne/images/fd6.png' alt="开光佛品" id="goods_logo"/> -->
+                </dt>
+                <dd class="col-xs-7">
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="row addr">
+        <div class="nav">请填写地址</div>
+        <div class="col-xs-12 tip">
+            <div class="left amount col-xs-4"> ￥400</div>
+            <div class="right total col-xs-8">已有<b>1000人</b>选择</div>
+        </div>
+        <form class="form-horizontal" role="form" id="my_addr_form_1" method="post">
+            <div class="form-group">
+                <label class="col-sm-2 control-label">年龄段</label>
+                <div class="col-sm-10">
+                    <div class="btn-group" data-toggle="buttons" id="age_1">
+                        <label class="btn btn-write">
+                            <input type="radio" name="age" value="1"> 20岁以下
+                        </label>
+                        <label class="btn btn-write">
+                            <input type="radio" name="age" value="2"> 20-50岁
+                        </label>
+                        <label class="btn btn-write ">
+                            <input type="radio" name="age" value="3"> 50岁以上
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="name_1" class="col-sm-2 control-label">收货人</label>
+
+                <div class="col-sm-10">
+                    <input type="text" name="name" class="form-control" id="name_1" placeholder="请填写姓名" value="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phone_1" class="col-sm-2 control-label">联系电话</label>
+
+                <div class="col-sm-10">
+                    <input type="text" name="phone" class="form-control" id="phone_1" placeholder="请确保手机通畅" value="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="distpicker_1" class="col-sm-2 control-label">收货地址</label>
+
+                <div class="col-sm-10" data-toggle="distpicker" data-autoselect="3" id="distpicker_1">
+                    <select name="province_1"></select>
+                    <select name="city_1"></select>
+                    <select name="area_1"></select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="addr_1" class="col-sm-2 control-label">详细街道位置</label>
+                <div class="col-sm-10">
+                    <input type="text" name="addr" class="form-control" id="addr_1" placeholder="请填写详细街道" value="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div  class="col-sm-10 node"> *&nbsp;玉佛在线奉请，先验货后付款<br/>*&nbsp;真正零风险购买，杜绝一切瑕疵</div>
+                <br/>
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button class="btn btn-default" id="leave_1">返回商城</button>
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class="btn btn-danger" id="decide_1">货到付款</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+    <div class="row detail">
+        <div class="nav">开光佛品详情</div>
+        <div class="col-xs-12 tip">
+            <div class="left amount col-xs-4"> ￥400</div>
+            <div class="right total col-xs-8"></div>
+        </div>
+        <div id="goods_detail_info" class="col-xs-12">
+
+            <!--info-->
+            <div class="info"></div>
+            <div class="col-xs-12 video show">
+              <iframe style="width:100%;height:auto;" src="http://player.youku.com/embed/XMzA0NDA0MjI3Mg" frameborder="0" allowfullscreen=""></iframe>
+            </div>
+            <!--addr-->
+            <div>
+                <form class="form-horizontal" role="form" id="my_addr_form_2" method="post">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">年龄段</label>
+                        <div class="col-sm-10">
+                            <div class="btn-group" data-toggle="buttons" id="age_2">
+                                <label class="btn btn-write">
+                                    <input type="radio" name="age" value="1"> 20岁以下
+                                </label>
+                                <label class="btn btn-write">
+                                    <input type="radio" name="age" value="2"> 20-50岁
+                                </label>
+                                <label class="btn btn-write ">
+                                    <input type="radio" name="age" value="3"> 50岁以上
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name_2" class="col-sm-2 control-label">收货人</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" name="name" class="form-control" id="name_2" placeholder="请填写姓名"
+                                   value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone_2" class="col-sm-2 control-label">联系电话</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" name="phone" class="form-control" id="phone_2" placeholder="请确保手机通畅"
+                                   value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="distpicker_2" class="col-sm-2 control-label">收货地址</label>
+
+                        <div class="col-sm-10" data-toggle="distpicker" data-autoselect="3" id="distpicker_2">
+                            <select name="province_2"></select>
+                            <select name="city_2"></select>
+                            <select name="area_2"></select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="addr_2" class="col-sm-2 control-label">详细街道位置</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" name="addr" class="form-control" id="addr_2" placeholder="请填写详细街道"
+                                   value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div  class="col-sm-10 node"> *&nbsp;玉佛在线奉请，先验货后付款<br/>*&nbsp;真正零风险购买，杜绝一切瑕疵</div>
+                        <br/>
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button class="btn btn-default" id='leave_2' ;>返回商城</button>
+                            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button class="btn btn-danger" id="decide_2">货到付款</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" name='goods_id' value=""/>
+</div>
+<input type="hidden" name="domain" value="{$domain}"/>
+<script src="/Public/plugin/jquery-1.11.2.min.js"></script>
+<script src="/Public/plugin/bootstrap.min.js"></script>
+<script src="/Public/plugin/layer/layer.js"></script>
+<script src="/Public/plugin/area/distpicker.js"></script>
+<script src="/Public/VOne/js/shop.js"></script>
+<script type="text/javascript">
+    $(function () {
+//      $("#distpicker_2").distpicker();
+//      $("#distpicker_1").distpicker();
+    });
+</script>
+</body>
+{:W('Share/Vone')}
+</html>

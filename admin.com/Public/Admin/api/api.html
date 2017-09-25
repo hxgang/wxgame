@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>接口示例</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <style>
+        table{
+            width: 100%;
+            border-width: 1px medium medium 1px;
+            border-style: solid none none solid;
+            border-color: #CDCDCD -moz-use-text-color -moz-use-text-color #CDCDCD;
+            -moz-border-top-colors: none;
+            -moz-border-right-colors: none;
+            -moz-border-bottom-colors: none;
+            -moz-border-left-colors: none;
+            border-image: none;
+            background: #FFF none repeat scroll 0% 0%;
+            border-spacing: 0px;
+            line-height: 30px;
+            font-size: 12px;
+            font: 14px/22px "Microsoft Yahei",Tahoma,"SimSun";
+            color: #666;
+        }
+        table th{
+            line-height: 40px;
+            background: #EFEFEF none repeat scroll 0% 0%;
+            line-height: 30px;
+            height: 30px;
+            font-weight: normal;
+            border-right: 1px solid #CDCDCD;
+            border-bottom: 1px solid #CDCDCD;
+            padding: 0px;
+        }
+        table td{
+            line-height: 30px;
+            text-align: left;
+            padding-left: 10px;
+            border-right: 1px solid #CDCDCD;
+            border-bottom: 1px solid #CDCDCD;
+        }
+        .content{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<h1 style="text-align: center">欢迎使用接口测试工具</h1>
+<div id="content"></div>
+<br />
+<button class="add">添加参数</button>
+<button class="reset">置空</button>
+<button class="submit">提交</button>
+
+<form method="get" id="api" action="/index.php/Home/Interface/index" target="_blank">
+    <input type="hidden" name="class" value="">
+    <input type="hidden" name="method" value="">
+    <input type="hidden" name="params" value="">
+</form>
+<p><b>响应说明:</b>　<button id="look">查看</button></p>
+<div id="result"></div>
+ <br />
+<br />
+<br />
+<br />
+<br />
+<script id="table" type="text/html">
+    <div>
+        选择接口分类:
+        <select name="classify">
+            {{each data as row i}}
+            <option value="{{i}}" {{if i==select[0]}}selected="selected"{{/if}}>{{row.type}}</option>
+            {{/each}}
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;选择接口
+        <select name="interface">
+            {{each data[select[0]]['interface'] as row i}}
+                <option value="{{i}}" {{if i==select[1]}}selected="selected"{{/if}}>{{row.name}}</option>
+            {{/each}}
+        </select>
+    </div>
+    <form id="tb">
+    <table class="table table-hover table-bordered" data-num="{{data[select[0]]['interface'][select[1]]['params'].length}}">
+        <tr>
+            <th>选项</th>
+            <th colspan="2">内容</th>
+            <th>说明</th>
+        </tr>
+        <tr>
+            <td>API请求地址</td>
+            <td id="interface-url" data-url="{{data[select[0]]['interface'][select[1]]['url']}}">/index.php/Home/Interface/index{{data[select[0]]['interface'][select[1]]['url']}}</td>
+            <td>
+                提交类型: <input name="m_type" type="radio"
+                    {{if data[select[0]]['interface'][select[1]]['method']!='post'}}
+                        checked="checked"
+                    {{/if}}
+                value="get">GET
+                <input name="m_type" type="radio"
+                {{if data[select[0]]['interface'][select[1]]['method']=='post'}}
+                checked="checked"
+                {{/if}} value="post">POST
+            </td>
+            <td>描述:{{#data[select[0]]['interface'][select[1]]['description']}}</td>
+        </tr>
+        {{each data[select[0]]['interface'][select[1]]['params'] as row i}}
+        <tr>
+            <td>参数</td>
+            <td>参数变量名: <input name="p_name[]" disabled="disabled" type="text" value="{{row.name}}"> -->{{row.info}}</td>
+            <td>参数变量值: <input name="p_value[]" type="text" value="{{row.example}}"></td>
+            <td>{{if row.required}}必填{{else}}选填{{/if}}:{{row.type}}</td>
+        </tr>
+        {{/each}}
+    </table>
+    </form>
+</script>
+
+<script id="tr" type="text/html">
+    <tr>
+            <td>参数</td>
+            <td>参数变量名: <input name="p_name[]" type="text" value=""></td>
+            <td>参数变量值: <input name="p_value[]" type="text" value=""></td>
+            <td>输入参数的键值对</td>
+    </tr>
+</script>
+<script id="result-tab" type="text/html">
+    <table class="table table-hover table-bordered">
+        <tr>
+            <th>属性</th>
+            <th>层级</th>
+            <th>类型</th>
+            <th>说明</th>
+            <th>值</th>
+
+        </tr>
+        <tr>
+            <td>res</td>
+            <td>0</td>
+            <td>int</td>
+            <td>返回结果状态码</td>
+            <td>{{res}}</td>
+        </tr>
+        <tr>
+            <td>data</td>
+            <td>0</td>
+            <td>array</td>
+            <td>结果数据</td>
+            <td>array</td>
+        </tr>
+        {{each data as row i}}
+        <tr>
+            <td>{{row.deep | deep}}:{{row.k}}</td>
+            <td>{{row.deep}}</td>
+            <td>{{row.type}}</td>
+            <td>{{ruesult_info[row.key]}}</td>
+            <td>{{row.value}}</td>
+        </tr>
+        {{/each}}
+    </table>
+
+</script>
+<script src="/Public/admin/js/jquery.min.js"></script>
+<script src="/Public/static/ipad/js/lib/template.min.js"></script>
+<script src="/Public/admin/js/api/interface.js"></script>
+<script>
+    function deep(num){
+        var str = '|';
+        for(var i= 0;i<num;++i){
+            str +='—';
+        }
+        if(num>0){
+            return str;
+        }
+        return '';
+    }
+    function treeToArr(tree,key,deep){ //树状数据变成一维数组
+        key = key ? key+'-' : '';
+        deep = deep ? deep+1 : 1;
+        var result = [];
+        if(typeof tree =='object'){
+            for(var i in tree){
+                if(typeof tree[i] !='object'){
+                    result[result.length] = {"key":key+i,"k":i,"type": typeof tree[i],"value":tree[i],"deep":deep};
+                }else{
+                    result[result.length] = {"key":key+i,"k":i,"type": typeof tree[i],"value":"array","deep":deep};
+                    var res = treeToArr(tree[i],key+i,deep);
+                    for(var j= 0;j<res.length;j++){
+                        result[result.length] = res[j];
+                    }
+                }
+            }
+        }else{
+            result[result.length] = {"key":key,"k":0,"type": typeof tree,"value":tree,"deep":deep};
+        }
+        return result;
+    }
+
+    var html = template('table',{data:interfaces,select:[0,0]});
+    window.document.getElementById('content').innerHTML = html;
+
+    function parseURL(url) {
+        var a =  document.createElement('a');
+        a.href = url;
+        return {
+            source: url,
+            protocol: a.protocol.replace(':',''),
+            host: a.hostname,
+            port: a.port,
+            query: a.search,
+            params: (function(){
+                var ret = {},
+                        seg = a.search.replace(/^\?/,'').split('&'),
+                        len = seg.length, i = 0, s;
+                for (;i<len;i++) {
+                    if (!seg[i]) { continue; }
+                    s = seg[i].split('=');
+                    ret[s[0]] = s[1];
+                }
+                return ret;
+            })(),
+            file: (a.pathname.match(/\/([^\/?#]+)$/i) || [,''])[1],
+            hash: a.hash.replace('#',''),
+            path: a.pathname.replace(/^([^\/])/,'/$1'),
+            relative: (a.href.match(/tps?:\/\/[^\/]+(.+)/) || [,''])[1],
+            segments: a.pathname.replace(/^\//,'').split('/')
+        };
+    }
+    var url = parseURL(window.location.href);
+    if(url['port']){
+        $('#api').attr('action','http://'+url['host']+':'+url['port']+$('#api').attr('action'));
+    }else{
+        $('#api').attr('action','http://'+url['host']+$('#api').attr('action'));
+    }
+    /* 调试打印 */
+    function dumps(){
+        for (var i = 0; i < arguments.length; ++i) {
+            console.log(arguments[i]);
+        }
+    }
+   window.onload = function(){
+       template.helper('deep',deep); //模板绑定访问外部变量方法
+       /* 添加参数 */
+        $('.add').click(function(){
+            var html = template('tr',{});
+            $('table').append(html);
+        });
+       /* 置空 */
+       $('.reset').click(function(){
+               $('#tb').find('[name="p_value[]"]').val(['']);
+       });
+       function handParams(){
+           var url = $.trim($('#interface-url').attr('data-url'));
+           var p = parseURL(url);
+           var $form = $('#api');
+           $('[name="class"]:input').val(p.params.class);
+           $('[name="method"]:input').val(p.params.method);
+           if(!(p.params.method && p.params.class)){
+               alert('接口地址错误!');
+               return false;
+           }
+           $form.attr('method',$('[name="m_type"]:input').val());
+           //获取参数
+           var $p_name = $('[name="p_name[]"]:not(:hidden)'); //参数名
+           var params = '';
+           $('[name="p_value[]"]:not(:hidden)').each(function(a,b){
+               if($.trim($($p_name[a]).val()) && $.trim($(b).val())){
+                   if(($(b).val().indexOf('}')!=-1) || ($(b).val().indexOf(']')!=-1)){
+                       params += '"'+$($p_name[a]).val()+'":'+$(b).val()+',';
+                   }else{
+                       params += '"'+$($p_name[a]).val()+'":"'+$(b).val()+'",';
+                   }
+               }
+           });
+           params = params+'"":""';
+           if(params.indexOf(',')==0){
+               params = params.substr(1,params.length);
+           }
+           params = '{'+params+'}';
+           $('form input[name="params"]').val(params);
+
+       }
+
+       /* 提交 */
+       $('.submit').click(function(){
+           handParams();
+           $('#api').submit();
+       });
+
+       /* 提交数据获取返回数据结果 */
+       $(document).on('click','#look',function(){
+           handParams();
+           var $form = $('#api');
+           $.ajax({
+               type: 'post',
+               url: $form.attr('action'),
+               data: $form.serialize(),
+               success:function(data){
+                   if('string'==typeof data){
+                       eval('data = '+data+';');
+                   };
+                   dumps(data);
+                   data.data = treeToArr(data.data,'');
+                   data.ruesult_info = interfaces[$('[name="classify"]').val()]['interface'][$('[name="interface"]').val()]['result_info'];//当前分类
+                   var html = template('result-tab',data);
+                   window.document.getElementById('result').innerHTML = html;
+               },
+               error:function(){
+                   alert('网络错误!');
+               }
+           });
+       })
+
+       /* 切换分类 */
+       $(document).on('change','[name="classify"]',function(){
+           var html = template('table',{data:interfaces,select:[$(this).val(),0]});
+           window.document.getElementById('content').innerHTML = html;
+       })
+
+       /* 选择接口 */
+       $(document).on('change','[name="interface"]',function(){
+           var html = template('table',{data:interfaces,select:[$('[name="classify"]').val(),$(this).val()]});
+           window.document.getElementById('content').innerHTML = html;
+           window.document.getElementById('result').innerHTML = '';
+       })
+
+
+
+
+   }
+</script>
+</body>
+</html>

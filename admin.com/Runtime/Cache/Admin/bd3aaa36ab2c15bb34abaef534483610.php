@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>上传根目录不存在！请尝试手动创建:./Uploads/

@@ -1,0 +1,61 @@
+<extend name="Common:edit"/>
+<block name="form">
+    <form method="post" action="{:U()}">
+        <table cellspacing="1" cellpadding="3" width="100%">
+            <tr>
+                <td class="label">分类名称</td>
+                <td>
+                    <input type="text" name="name" maxlength="60" value="{$name}"> <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">是否帮助</td>
+                <td>
+                    <input type="radio" name="is_help" class="is_help" value="1">是
+                    <input type="radio" name="is_help"  class="is_help" value="0">否
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">简介</td>
+                <td>
+                    <textarea name="intro" cols="60" rows="4">{$intro}</textarea>
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">是否显示</td>
+                <td>
+                    <input type="radio" name="status" class="status" value="1">是
+                    <input type="radio" name="status" class="status" value="0">否
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">排序</td>
+                <td>
+                    <input type="text" name="sort" maxlength="60" value="{$sort|default=20}"> <span
+                        class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><br/>
+                    <input type="hidden" name="id" value="{$id}"/>
+                    <input type="submit" class="button ajax-post" value=" 确定 "/>
+                    <input type="reset" class="button" value=" 重置 "/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</block>
+<block name="js">
+    <script type="text/javascript">
+        $(function(){
+            /*-------------默认值 开始-------------------------*/
+            $('.is_help').val([{$is_help|default=1}]);
+            $('.status').val([{$status|default=1}]);
+            /*-------------默认值 结束-------------------------*/
+        });
+
+    </script>
+</block>

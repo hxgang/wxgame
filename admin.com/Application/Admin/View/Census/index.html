@@ -1,0 +1,107 @@
+<link href="/Public/Admin/My97DatePicker/skin/WdatePicker.css">
+<script src="/Public/Admin/My97DatePicker/WdatePicker.js"></script>
+<script src="__JS__/echarts.min.js"></script>
+
+<div class="tpl-portlet-components">
+        <div class="portlet-title">
+            <div class="caption font-green bold">
+                <span class="am-icon-code"></span>订单统计
+            </div>
+        </div>
+        <div class="tpl-block">
+
+            <div class="am-g">
+                <div class="am-u-sm-12">
+                    <form action="" class="am-form am-form-inline">
+                        <div class="am-form-group am-form-icon">
+                            <i class="am-icon-calendar"></i>
+                            <input type="text" id="date_start" name="date_start" value="{$date_start}" class="am-form-field" <literal>onfocus="WdatePicker({maxDate:'#F{$dp.$D(\'date_end\')||\'%y-%M-%d\'}'})"</literal> placeholder="开始日期" />
+                        </div>
+                        <div class="am-form-group am-form-icon">
+                            <i class="am-icon-calendar"></i>
+                            <input type="text" id="date_end" name="date_end" value="{$date_end}" class="am-form-field" <literal>onfocus="WdatePicker({minDate:'#F{$dp.$D(\'date_start\')}',maxDate:'%y-%M-%d'})"</literal> placeholder="结束日期" />
+                        </div>
+                        <button class="am-btn am-btn-default" id="video_search" onclick="this.form.submit();">搜索</button>
+                        <input type="button" class="am-btn" onclick="javascript:location.href='{:U("")}';" value="清空" />
+                    </form>
+                </div>
+            </div>
+            <div class="am-g">
+
+                <div class="am-u-sm-12">
+                    <div class="tpl-content-scope"  style="top:50px;" >
+                        <div class="note note-info" >
+                            <p>数据统计: </p>
+                            <p>订单数量:<span style="color:red">{$order_all.num}单</span> </p>
+                            <p>订单金额:<span style="color:red">{$order_all.price}元</span> </p>
+                        </div>
+                    </div>
+                    <div id="month_order_day" style="height:300px;top:10px;"></div>
+                </div>
+            </div>
+        </div>
+</div>
+<div class="am-cf">
+        {$data.page}
+</div>
+<script>
+   var option_month_data = {
+        tooltip : {
+            trigger: 'axis'
+        },
+        legend: {
+            data:['每日订单数','每日总金额']
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                dataView : {show: true, readOnly: false},
+                magicType : {show: true, type: ['line', 'bar', 'stack', 'tiled']},
+                restore : {show: true},
+                saveAsImage : {show: true}
+            }
+        },
+        calculable : true,
+        xAxis : [
+            {
+                type : 'category',
+                boundaryGap : false,
+                data : [{$order_month_day_key}]
+            }
+        ],
+        yAxis : [
+            {
+                type : 'value'
+            }
+        ],
+        series : [
+            {
+                name:'每日订单数',
+                type:'line',
+                stack: '总量',
+                symbol: 'none',
+                data:[
+                    {$order_month_day_order_val}
+                ]
+            }, {
+                name:'每日总金额',
+                type:'line',
+                stack: '总量',
+                symbol: 'none',
+                data:[
+                    {$order_month_day_price_val}
+                ]
+            }
+
+        ]
+    };
+
+   echarts.init(document.getElementById('month_order_day')).setOption(option_month_data);
+
+</script>
+
+
+
+
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <title>"福"气到家</title>
+    <link href="/Public/VOne/css/style.css" rel="stylesheet">
+</head>
+<body class="game_bg">
+<div class="countdown hide"> 3</div>
+<div class="rain-wrap hide">
+    <div class="over_date left">倒计时 <span class="date_time">20</span> 秒</div>
+    <div class="over_date right">佛缘 <span class="money">0</span> 点</div>
+</div>
+<div class="pop hide">
+    <div class="pop_bg">
+        <!--弹窗顶部-->
+        <div class="wall dw"><img src="/Public/VOne/images/boxtop.png">
+
+            <div class="pop_close" id="close" onclick="window.location.reload();"></div>
+        </div>
+        <!--提示-->
+        <div class="fd_pop hide" id="fd_pop1">
+            <div class="fd_con">
+                <div class="fd_font" id="tips">
+                    <div class="amount_tips hide">
+                        拥有佛缘： <span>0</span> 点
+                    </div>
+                    <div class="share_tips hide">
+                        还有<span>0次</span>游戏机会
+                        <a href="javascript:;" id="qiang">去攒佛缘► </a>
+                    </div>
+                    <div class="btn_tips" style="">
+                        <a class="pop_btn left share_btn" href="javascript:;"><img src="/Public/VOne/images/btn_1.png"
+                                                                                   alt="去分享" title="去分享"></a>
+                        <a class="pop_btn right " href="{:U('/VOne/shop')}"><img src="/Public/VOne/images/btn_2.png"
+                                                                                 alt="在线奉请" title="在线奉请"></a>
+                    </div>
+                    <div id="order_tips">查看订单详情 ↓↓↓</div>
+                    <div class="order_tips">
+                        ~ 订单空空，先去购物吧 ~
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--中奖了-->
+        <div class="fd_pop hide" id="fd_pop6">
+            <div class="fd_title wall">
+            </div>
+            <div class="wd_font">
+                <p>获得<span id="amount">0</span>点佛缘！</p>
+
+                <p>佛缘点数可以奉请玉佛</p>
+                <!-- <p>每次最多抵扣30元</p> -->
+            </div>
+            <div class="price_btn">
+                <a class="pop_btn left share_btn" href="javascript:;"><img src="/Public/VOne/images/btn_1.png" alt="去分享"
+                                                                           title="去分享"></a>
+                <a class="pop_btn right" href="{:U('/VOne/shop')}"><img src="/Public/VOne/images/btn_2.png" alt="在线奉请"
+                                                                        title="在线奉请"></a>
+            </div>
+        </div>
+        <!--游戏超时-->
+        <div class="fd_pop hide" id="fd_pop2">
+            <div class="fd_title wall">
+            </div>
+            <div class="wd_font">
+                还没有准备好吗？可以再来一次呢！
+            </div>
+            <div class="price_btn">
+                <a class="pop_btn left share_btn" href="javascript:;"><img src="/Public/VOne/images/btn_1.png" alt="去分享"
+                                                                           title="去分享"></a>
+                <a class="pop_btn right" href="{:U('/VOne/index')}"><img src="/Public/VOne/images/btn_2.png" alt="再一次"
+                                                                         title="再一次"></a>
+            </div>
+        </div>
+        <!--弹窗底部-->
+        <div class="wall boxbt"><img src="/Public/VOne/images/boxbt.png"></div>
+    </div>
+    <!--分享弹窗图 + 文字说明-->
+</div>
+<div id="share hide">
+    <img class="share" src="/Public/VOne/images/share.png" alt="分享箭头图">
+    <a class="close_share" href="javascript:;"
+       style="inline-block;width:100%;height:40px;position:absolute;bottom:0;z-index:1000;display:none;"></a>
+</div>
+<input type="hidden" name="domain" value="{$domain}"/>
+<script type="text/javascript" src="/Public/plugin/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="/Public/VOne/js/rain-2.js"></script>
+<script type="text/javascript" src="/Public/VOne/js/index.js"></script>
+<script src="/Public/plugin/layer/layer.js"></script>
+</body>
+{:W('Share/Vone')}
+</html>

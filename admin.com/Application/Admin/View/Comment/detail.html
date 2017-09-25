@@ -1,0 +1,57 @@
+<extend name="Common:edit"/>
+<block name="form">
+    <div class="main-div">
+        <table width="100%">
+            <tbody><tr>
+                <td>
+                    <a href="mailto:ecshop@ecshop.com"><b>{$rows.username}</b></a>&nbsp;于      &nbsp;{$rows.create_at|date='Y-m-d H:i:s',###}&nbsp;对&nbsp;订单号为：<b>{$rows.sn}</b>的&nbsp;发表评论    </td>
+            </tr>
+            <tr>
+                <td><hr color="#dadada" size="1"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div style="overflow:hidden; word-break:break-all;">{$rows.content}</div>
+                    <div align="right"><b>评论等级:</b>
+                        <switch name="rows.start">
+                            <case value="1">好评</case>
+                            <case value="2">中评</case>
+                            <case value="3">差评</case>
+                        </switch>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input onclick="location.href='comment_manage.php?act=check&amp;check=forbid&amp;id=2'" value="禁止显示" class="button" type="button">
+                </td>
+            </tr>
+            </tbody></table>
+    </div>
+    <div class="main-div">
+        <form method="post" action="{:U('Comment/replay')}" name="theForm">
+            <table align="center" border="0">
+                <tbody><tr><th colspan="2">
+                    <strong>回复评论</strong>
+                </th></tr>
+                <tr>
+                    <td>回复内容:</td>
+                    <td><textarea name="replay" cols="50" rows="4">{$rows.replay}</textarea></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>提示: 此条评论已有回复, 如果继续回复将更新原来回复的内容!</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>
+                        <input value=" 确定 " class="button ajax-post" type="button" >
+                        <input value=" 重置 " class="button" type="reset">
+                        <!--<input name="comment_id" value="{$rows.comment_id}" type="hidden">-->
+                        <input name="id" value="{$rows.id}" type="hidden">
+                    </td>
+                </tr>
+                </tbody></table>
+        </form>
+    </div>
+</block>

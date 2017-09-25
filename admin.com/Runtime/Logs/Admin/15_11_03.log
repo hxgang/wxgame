@@ -1,0 +1,129 @@
+[ 2015-11-03T09:43:38+08:00 ] 192.168.1.29 /Gii/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2015-11-03T09:43:40+08:00 ] 192.168.1.29 /Gii/undefined
+ERR: 非法操作:undefined
+
+[ 2015-11-03T09:44:17+08:00 ] 192.168.1.29 /Gii/undefined
+ERR: 非法操作:undefined
+
+[ 2015-11-03T09:44:30+08:00 ] 192.168.1.29 /Gii/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2015-11-03T09:44:31+08:00 ] 192.168.1.29 /Gii/undefined
+ERR: 非法操作:undefined
+
+[ 2015-11-03T11:04:11+08:00 ] 192.168.1.102 /Gii/index.html
+ERR: 1054:Unknown column 'TABLE_SCHEAM' in 'where clause'
+ [ SQL语句 ] : select TABLE_COMMENT from `information_schema`.`TABLES` WHERE TABLE_SCHEAM = 'shop' and TABEL_NAME = brand
+
+[ 2015-11-03T11:19:35+08:00 ] 192.168.1.102 /Brand/changeStatus/id/18/status/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002421s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0014s ]
+SQL: UPDATE `brand` SET `status`='1' WHERE `id` IN ('18') [ RunTime:0.0934s ]
+
+[ 2015-11-03T11:19:37+08:00 ] 192.168.1.102 /Brand/changeStatus/id/19/status/0.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0021s ]
+SQL: UPDATE `brand` SET `status`='0' WHERE `id` IN ('19') [ RunTime:0.0008s ]
+
+[ 2015-11-03T11:19:40+08:00 ] 192.168.1.102 /Brand/add.html
+ERR: 模板不存在:/home/www/www.19890407.com//Application/Admin/View/Brand/edit.html
+
+[ 2015-11-03T11:21:24+08:00 ] 192.168.1.102 /Brand/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `brand` WHERE `name` = 'の亲爱' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `brand` (`name`,`intro`,`sort`,`status`,`id`) VALUES ('の亲爱','定位','1','1','0') [ RunTime:0.0006s ]
+
+[ 2015-11-03T11:21:28+08:00 ] 192.168.1.102 /Brand/changeStatus/id/21/status/-1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0009s ]
+SQL: UPDATE `brand` SET `status`='-1',`name`=concat(name,"_del") WHERE `id` IN ('21') [ RunTime:0.0052s ]
+
+[ 2015-11-03T11:21:32+08:00 ] 192.168.1.102 /Brand/changeStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0009s ]
+SQL: UPDATE `brand` SET `status`='-1',`name`=concat(name,"_del") WHERE `id` IN ('19','18') [ RunTime:0.0109s ]
+
+[ 2015-11-03T11:56:44+08:00 ] 192.168.1.102 /Gii/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cloumns from `brand`' at line 1
+ [ SQL语句 ] : show full cloumns from `brand`
+
+[ 2015-11-03T13:00:54+08:00 ] 192.168.1.102 /Brand/index
+ERR: 模板不存在:/home/www/www.19890407.com//Application/Admin/View/Brand/index.html
+
+[ 2015-11-03T13:20:42+08:00 ] 192.168.1.102 /Brand/changeStatus/id/22/status/0.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0008s ]
+SQL: UPDATE `brand` SET `status`='0' WHERE `id` IN ('22') [ RunTime:0.0110s ]
+
+[ 2015-11-03T19:48:26+08:00 ] 192.168.1.102 /Gii/index.html
+ERR: 1146:Table 'shop.BRAND' doesn't exist
+ [ SQL语句 ] : show full columns from `BRAND`
+
+[ 2015-11-03T20:03:05+08:00 ] 192.168.1.102 /Brand/index
+ERR: 模板不存在:/home/www/www.19890407.com//Application/Admin/View/Brand/index.html
+
+[ 2015-11-03T20:05:49+08:00 ] 192.168.1.102 /Brand/add.html
+ERR: 模板不存在:/home/www/www.19890407.com//Application/Admin/View/Brand/edit.html
+
+[ 2015-11-03T21:27:57+08:00 ] 192.168.1.102 /Brand/index
+ERR: 模板不存在:/home/www/www.19890407.com//Application/Admin/View/Brand/index.html
+
+[ 2015-11-03T21:28:01+08:00 ] 192.168.1.102 /Brand/index
+ERR: 模板不存在:/home/www/www.19890407.com//Application/Admin/View/Brand/index.html
+
+[ 2015-11-03T21:33:36+08:00 ] 192.168.1.102 /Gii/index.html
+ERR: 1146:Table 'shop.bradn' doesn't exist
+ [ SQL语句 ] : show full columns from `bradn`
+
+[ 2015-11-03T21:39:39+08:00 ] 192.168.1.102 /Brand/index
+ERR: 模板不存在:/home/www/www.19890407.com//Application/Admin/View/Brand/index.html
+
+[ 2015-11-03T21:39:42+08:00 ] 192.168.1.102 /Brand/index
+ERR: 模板不存在:/home/www/www.19890407.com//Application/Admin/View/Brand/index.html
+
+[ 2015-11-03T21:40:01+08:00 ] 192.168.1.102 /Brand/index
+ERR: 模板不存在:/home/www/www.19890407.com//Application/Admin/View/Brand/index.html
+
+[ 2015-11-03T21:40:03+08:00 ] 192.168.1.102 /Brand/index
+ERR: 模板不存在:/home/www/www.19890407.com//Application/Admin/View/Brand/index.html
+
+[ 2015-11-03T21:40:28+08:00 ] 192.168.1.102 /Brand/index
+ERR: 模板不存在:/home/www/www.19890407.com//Application/Admin/View/Brand/index.html
+
+[ 2015-11-03T21:40:29+08:00 ] 192.168.1.102 /Brand/index
+ERR: 模板不存在:/home/www/www.19890407.com//Application/Admin/View/Brand/index.html
+
+[ 2015-11-03T21:45:13+08:00 ] 192.168.1.102 /Brand/index
+ERR: 模板不存在:/home/www/www.19890407.com//Application/Admin/View/Brand/index.html
+
+[ 2015-11-03T21:45:52+08:00 ] 192.168.1.102 /Brand/index
+ERR: 模板不存在:/home/www/www.19890407.com//Application/Admin/View/Brand/index.html
+
+[ 2015-11-03T23:01:35+08:00 ] 192.168.1.102 /Brand/add.html
+ERR: 模板不存在:/home/www/www.19890407.com//Application/Admin/View/Brand/edit.html
+

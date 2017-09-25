@@ -1,0 +1,118 @@
+<extend name="Common:edit"/>
+<block name="form">
+    <form method="post" action="{:U()}">
+        <table cellspacing="1" cellpadding="3" width="100%">
+            <tr>
+                <td class="label">属性名称</td>
+                <td>
+                    <input type="text" name="name" maxlength="60" value="{$name}"> <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">商品类型ID</td>
+                <td>
+                    {:arr2selected('goods_type_id',$goodsTypes,$goods_type_id)}
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">属性类型</td>
+                <td>
+                    <input type="radio" name="attribute_type" class="attribute_type" value="1"/>单值
+                    <input type="radio" name="attribute_type" class="attribute_type" value="2"/>多值
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">录入方式</td>
+                <td>
+                    <input type="radio" name="attribute_input_type" class="attribute_input_type" value="1"/>手工录入
+                    <input type="radio" name="attribute_input_type" class="attribute_input_type" value="2"/>从下面列表选择
+                    <input type="radio" name="attribute_input_type" class="attribute_input_type" value="3"/>多行文本
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">可选值</td>
+                <td>
+                    <textarea name="option_values"  class="option_values" cols="60" rows="4" >{$option_values}</textarea>
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">属性</td>
+                <td>
+                    <textarea name="intro" cols="60" rows="4">{$intro}</textarea>
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">状态</td>
+                <td>
+                    <input type="radio" name="status" class="status" value="1"/>是
+                    <input type="radio" name="status" class="status" value="0"/>否
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">排序</td>
+                <td>
+                    <input type="text" name="sort" maxlength="60" value="{$sort|default=20}"> <span
+                        class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><br/>
+                    <input type="hidden" name="id" value="{$id}"/>
+                    <input type="submit" class="button ajax-post" value=" 确定 "/>
+                    <input type="reset" class="button" value=" 重置 "/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</block>
+<block name="js">
+    <script type="text/javascript">
+        $(function(){
+            //////////////////////////////默认值  开始////////////////////////////
+            $('.attribute_type').val([{$attribute_type|default=2}]);
+            $('.attribute_input_type').val([{$attribute_input_type|default=2}]);
+           //////////////////////////////默认值  开始//////////////////////////////////
+           //////////////////////////////单值/多值特效  开始////////////////////////////
+
+        //>>1.找到多选按钮
+        $('.attribute_type').click(function(){
+            $(this).each(function(){
+                if($(this).val()==1){
+                    //单值
+                    $('.attribute_input_type').click(function(){
+                        $(this).each(function(){
+                            if($(this).val()==1 || $(this).val()==3){
+                                //禁用文本框.
+                                $('.option_values').prop("disabled",true);
+                            }else{
+                                $('.option_values').prop("disabled",false);
+
+
+                            }
+                        });
+                    });
+                }else{
+                    alert(1);
+                    $('.attribute_input_type').click(function(){
+                        $(this).each(function(){
+                            $('.option_values').prop("disabled",false);
+                        });
+                    });
+                }
+            });
+        });
+
+
+
+
+           //////////////////////////////单值/多值特效  结束////////////////////////////
+
+        });
+    </script>
+</block>

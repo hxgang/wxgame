@@ -1,0 +1,105 @@
+<extend name="Common:index"/>
+<block name="meta_title">
+
+</block>
+<block name="search">
+    <div class="form-div">
+        <form action="{:U('OrderInfo/index')}"  method="post" class="searchForm">
+            <img src="__IMG__/icon_search.gif" alt="SEARCH" border="0" height="22" width="26">
+            订单号<input name="order_sn" id="order_sn" size="20" type="text" value="{$order_sn}">
+            <!--收货人<input name="receiver" id="receiver" size="20" type="text" value="{$receiver}">-->
+            支付状态
+            <select name="pay_status" id="pay_status">
+                <option value="-99">--请选择--</option>
+                <option value="0" <eq name="pay_status" value="0">selected="selected"</eq>>未支付</option>
+                <option value="1" <eq name="pay_status" value="1">selected="selected"</eq>>已付款</option>
+            </select>
+            发货状态
+            <select name="shipping_status" id="shipping_status">
+            <option value="-99">--请选择--</option>
+            <option value="0" <eq name="shipping_status" value="0">selected="selected"</eq>>未发货</option>
+            <option value="1" <eq name="shipping_status" value="1">selected="selected"</eq>>配货中</option>
+            <option value="2"  <eq name="shipping_status" value="2">selected="selected"</eq>>已发货</option>
+        </select>
+            收货状态
+            <select name="order_status" id="order_status">
+            <option value="-99">--请选择--</option>
+            <option value="0" <eq name="order_status" value="0">selected="selected"</eq>>未确认</option>
+            <option value="1" <eq name="order_status" value="1">selected="selected"</eq>>已确认</option>
+            <option value="2"  <eq name="order_status" value="2">selected="selected"</eq>>退货中</option>
+            <option value="3"  <eq name="order_status" value="3">selected="selected"</eq>>已退货</option>
+        </select>
+            <input value=" 搜索 " class="button" type="submit">
+            <input value=" 取消 " class="button" type="button" onclick="window.location.href='{:U("OrderInfo/index")}'">
+        </form>
+    </div>
+</block>
+<block name="center">
+    <div class="list-div" id="listDiv">
+        <input type="button" class="button ajax-post" url="{:U('changeStatus')}" value="删除选中"/>
+        <table cellpadding="3" cellspacing="1">
+            <tr>
+                <th width="50px">序号<input type="checkbox" class="all"/></th>
+                <th>订单号</th>
+                <th>下单时期</th>
+                <th>收货人</th>
+                <th>总金额</th>
+                <th>订单状态</th>
+                <th>操作</th>
+            </tr>
+            <volist name="orders" id="row">
+                <tr>
+                    <td align="center"><input type="checkbox" name="id[]" class="id" value="{$row.id}"/></td>
+                    <td align='center'>{$row.sn}</td>
+                    <td align='center'>{$row.order_time}</td>
+                    <td align='center'>{$row.receiver}</td>
+                    <td align='center'>{$row.money}</td>
+                    <td align='center'>
+                        <switch name="row.pay_status">
+                            <case value="0"><font color="red">未支付</font></case>
+                            <case value="1"><font color="green"> 已付款</font></case>
+                        </switch> |
+                        <switch name="row.shipping_status">
+                            <case value="0"><font color="red">未发货</font></case>
+                            <case value="1"><font color="green"> 配货中</font></case>
+                            <case value="2"><font color="green"> 已发货</font></case>
+                        </switch> |
+                        <switch name="row.order_status">
+                            <case value="0"><font color="red">未确认</font></case>
+                            <case value="1"><font color="green"> 已确认</font></case>
+                            <case value="2"><font color="red"> 退货中</font></case>
+                            <case value="3"><font color="green"> 已退货</font></case>
+                        </switch>
+                    </td>
+
+                    <td align="center">
+                        <a href="{:U('edit',array('id'=>$row['id']))}" title="详情">详情</a> |
+                        <a class="ajax-get" href="{:U('changeStatus',array('id'=>$row['id']))}" title="移除">移除</a>
+                    </td>
+                </tr>
+            </volist>
+        </table>
+        <div class="page">
+            {$pageHtml}
+        </div>
+    </div>
+</block>
+<block name="js">
+    <script type="text/javascript" src="__LAYER__"></script>
+    <script type="text/javascript" src="__JS__/common.js"></script>
+    <script type="text/javascript">
+        function searchOrder(){
+            var form_data=$('.searchForm').serialize();
+//            console.debug(form_data);
+//            return;
+            $.post("{:U('OrderInfo/index')}",form_data,function(data){
+//                layer.msg(data.info, {
+//                    icon: data.status ? 1 : 2,  //1是√，2是×
+//                    time: 1000 //1秒关闭（如果不配置，默认是3秒）
+//                }, function () {
+//                    location.href = data.url; //提示框隐藏之后就刷新页面。
+//                });
+            });
+        }
+    </script>
+</block>

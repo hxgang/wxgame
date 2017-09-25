@@ -1,0 +1,55 @@
+<extend name="Common:edit"/>
+<block name="form">
+    <form method="post" action="{:U()}">
+        <table cellspacing="1" cellpadding="3" width="100%">
+            <tr>
+                <td class="label">级别名称</td>
+                <td>
+                    <input type="text" name="name" maxlength="60" value="{$name}"> <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">经验值下限</td>
+                <td>
+                    <input type="text" name="bottom" maxlength="60" value="{$bottom}"> <span
+                        class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">经验值上限</td>
+                <td>
+                    <input type="text" name="top" maxlength="60" value="{$top}"> <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">折扣率</td>
+                <td>
+                    <input type="text" name="discount" maxlength="60" value="{$discount}"> <span
+                        class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">状态</td>
+                <td>
+                    <input type="radio" name="status"  class="status" value="1"/>是
+                    <input type="radio" name="status"  class="status" value="0"/>否
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">排序</td>
+                <td>
+                    <input type="text" name="sort" maxlength="60" value="{$sort|default=20}"> <span
+                        class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><br/>
+                    <input type="hidden" name="id" value="{$id}"/>
+                    <input type="submit" class="button ajax-post" value=" 确定 "/>
+                    <input type="reset" class="button" value=" 重置 "/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</block>
